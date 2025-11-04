@@ -1,295 +1,245 @@
-<svg width="1584" height="300" viewBox="0 0 1584 300" xmlns="http://www.w3.org/2000/svg"><svg width="1584" height="396" viewBox="0 0 1584 396" xmlns="http://www.w3.org/2000/svg">
+<svg width="1584" height="300" xmlns="http://www.w3.org/2000/svg"><?xml version="1.0" encoding="utf-8"?>
 
-  <defs>  <defs>
+  <defs><svg width="1584" height="396" viewBox="0 0 1584 396" xmlns="http://www.w3.org/2000/svg">
 
-    <!-- Dark red gradient background -->    <!-- Professional crimson gradient -->
+    <!-- Background gradient -->  <defs>
 
-    <radialGradient id="bgGrad" cx="50%" cy="50%" r="80%">    <radialGradient id="professionalBg" cx="50%" cy="50%" r="100%">
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">    <!-- Professional crimson gradient -->
 
-      <stop offset="0%" style="stop-color:#8b0000;stop-opacity:1" />      <stop offset="0%" style="stop-color:#8b0000;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />    <radialGradient id="professionalBg" cx="50%" cy="50%" r="100%">
 
-      <stop offset="50%" style="stop-color:#2d0a0a;stop-opacity:1" />      <stop offset="40%" style="stop-color:#2d0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0000;stop-opacity:1" />      <stop offset="0%" style="stop-color:#8b0000;stop-opacity:1" />
 
-      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />      <stop offset="80%" style="stop-color:#1a0606;stop-opacity:1" />
+    </linearGradient>      <stop offset="40%" style="stop-color:#2d0a0a;stop-opacity:1" />
 
-    </radialGradient>      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+          <stop offset="80%" style="stop-color:#1a0606;stop-opacity:1" />
 
-        </radialGradient>
+    <!-- Glow effect for text -->      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
 
-    <!-- Red glow filter -->    
+    <filter id="glow">    </radialGradient>
 
-    <filter id="glow">    <!-- Code glow -->
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>    
 
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>    <filter id="codeGlow">
+      <feMerge>    <!-- Code glow -->
 
-      <feMerge>      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>    <filter id="codeGlow">
 
-        <feMergeNode in="coloredBlur"/>      <feMerge>
+        <feMergeNode in="SourceGraphic"/>      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
 
-        <feMergeNode in="SourceGraphic"/>        <feMergeNode in="coloredBlur"/>
+      </feMerge>      <feMerge>
 
-      </feMerge>        <feMergeNode in="SourceGraphic"/>
+    </filter>        <feMergeNode in="coloredBlur"/>
 
-    </filter>      </feMerge>
+            <feMergeNode in="SourceGraphic"/>
 
-        </filter>
+    <!-- Bug glow effect -->      </feMerge>
 
-    <!-- Animated bug glow -->    
+    <filter id="bugGlow">    </filter>
 
-    <filter id="bugGlow">    <!-- Professional glow -->
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>    
 
-      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>    <filter id="professionalGlow">
+      <feMerge>    <!-- Professional glow -->
 
-      <feMerge>      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>    <filter id="professionalGlow">
 
-        <feMergeNode in="coloredBlur"/>      <feMerge>
+        <feMergeNode in="SourceGraphic"/>      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
 
-        <feMergeNode in="SourceGraphic"/>        <feMergeNode in="coloredBlur"/>
+      </feMerge>      <feMerge>
 
-      </feMerge>        <feMergeNode in="SourceGraphic"/>
+    </filter>        <feMergeNode in="coloredBlur"/>
 
-    </filter>      </feMerge>
+            <feMergeNode in="SourceGraphic"/>
 
-        </filter>
+    <!-- Radial gradient for bug shield -->      </feMerge>
 
-    <!-- Grid pattern -->    
+    <radialGradient id="bugShield">    </filter>
 
-    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">    <!-- Professional pattern -->
+      <stop offset="0%" style="stop-color:#DC143C;stop-opacity:0.8"/>    
 
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#dc143c" stroke-width="0.5" opacity="0.15"/>    <pattern id="professionalPattern" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <stop offset="100%" style="stop-color:#8b0000;stop-opacity:0.2"/>    <!-- Professional pattern -->
 
-    </pattern>      <rect width="120" height="120" fill="none"/>
+    </radialGradient>    <pattern id="professionalPattern" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
 
-  </defs>      <g stroke="#dc143c" stroke-width="0.3" opacity="0.2" fill="none">
+  </defs>      <rect width="120" height="120" fill="none"/>
 
-          <!-- Code brackets -->
+        <g stroke="#dc143c" stroke-width="0.3" opacity="0.2" fill="none">
 
-  <!-- Background -->        <path d="M20 20 L10 20 L10 30 L20 30"/>
+  <!-- Background -->        <!-- Code brackets -->
 
-  <rect width="100%" height="100%" fill="url(#bgGrad)"/>        <path d="M100 20 L110 20 L110 30 L100 30"/>
+  <rect width="1584" height="300" fill="url(#bgGrad)"/>        <path d="M20 20 L10 20 L10 30 L20 30"/>
 
-  <rect width="100%" height="100%" fill="url(#grid)"/>        <path d="M20 90 L10 90 L10 100 L20 100"/>
+          <path d="M100 20 L110 20 L110 30 L100 30"/>
 
-          <path d="M100 90 L110 90 L110 100 L100 100"/>
+  <!-- Grid pattern -->        <path d="M20 90 L10 90 L10 100 L20 100"/>
 
-  <!-- Animated waves -->        <!-- Binary dots -->
+  <g opacity="0.1">        <path d="M100 90 L110 90 L110 100 L100 100"/>
 
-  <path d="M0,150 Q400,100 800,150 T1584,150" stroke="#dc143c" stroke-width="2" fill="none" opacity="0.4">        <circle cx="30" cy="60" r="1"/>
+    <line x1="0" y1="50" x2="1584" y2="50" stroke="#DC143C" stroke-width="0.5"/>        <!-- Binary dots -->
 
-    <animate attributeName="d"         <circle cx="50" cy="60" r="1"/>
+    <line x1="0" y1="100" x2="1584" y2="100" stroke="#DC143C" stroke-width="0.5"/>        <circle cx="30" cy="60" r="1"/>
 
-             values="M0,150 Q400,100 800,150 T1584,150;        <circle cx="70" cy="60" r="1"/>
+    <line x1="0" y1="150" x2="1584" y2="150" stroke="#DC143C" stroke-width="0.5"/>        <circle cx="50" cy="60" r="1"/>
 
-                     M0,150 Q400,200 800,150 T1584,150;        <circle cx="90" cy="60" r="1"/>
+    <line x1="0" y1="200" x2="1584" y2="200" stroke="#DC143C" stroke-width="0.5"/>        <circle cx="70" cy="60" r="1"/>
 
-                     M0,150 Q400,100 800,150 T1584,150"        <!-- Network nodes -->
+    <line x1="0" y1="250" x2="1584" y2="250" stroke="#DC143C" stroke-width="0.5"/>        <circle cx="90" cy="60" r="1"/>
 
-             dur="6s" repeatCount="indefinite"/>        <line x1="30" y1="40" x2="50" y2="40"/>
+  </g>        <!-- Network nodes -->
 
-  </path>        <line x1="50" y1="40" x2="70" y2="60"/>
+          <line x1="30" y1="40" x2="50" y2="40"/>
 
-  <path d="M0,200 Q400,250 800,200 T1584,200" stroke="#8b0000" stroke-width="2" fill="none" opacity="0.3">        <line x1="70" y1="60" x2="90" y2="80"/>
+  <!-- Animated wave -->        <line x1="50" y1="40" x2="70" y2="60"/>
+
+  <path d="M0,200 Q396,180 792,200 T1584,200 L1584,300 L0,300 Z" fill="#DC143C" opacity="0.1">        <line x1="70" y1="60" x2="90" y2="80"/>
 
     <animate attributeName="d"       </g>
 
-             values="M0,200 Q400,250 800,200 T1584,200;    </pattern>
+             dur="8s"     </pattern>
 
-                     M0,200 Q400,150 800,200 T1584,200;  </defs>
+             repeatCount="indefinite"  </defs>
 
-                     M0,200 Q400,250 800,200 T1584,200"  
+             values="M0,200 Q396,180 792,200 T1584,200 L1584,300 L0,300 Z;  
 
-             dur="7s" repeatCount="indefinite"/>  <!-- Background -->
+                     M0,200 Q396,220 792,200 T1584,200 L1584,300 L0,300 Z;  <!-- Background -->
 
-  </path>  <rect width="100%" height="100%" fill="url(#professionalBg)"/>
+                     M0,200 Q396,180 792,200 T1584,200 L1584,300 L0,300 Z"/>  <rect width="100%" height="100%" fill="url(#professionalBg)"/>
 
-    <rect width="100%" height="100%" fill="url(#professionalPattern)"/>
-
-  <!-- Main Title -->  
-
-  <text x="792" y="100" font-family="Arial, sans-serif" font-size="60" fill="#dc143c" font-weight="bold" text-anchor="middle" filter="url(#glow)">  <!-- Professional waves (from banner 17, made red) -->
-
-    UMAIR AZIZ  <path d="M0 200 Q200 100 400 200 Q600 300 800 200 Q1000 100 1200 200 Q1400 300 1584 200" stroke="#dc143c" stroke-width="3" fill="none" opacity="0.6"/>
-
-  </text>  <path d="M0 250 Q200 350 400 250 Q600 150 800 250 Q1000 350 1200 250 Q1400 150 1584 250" stroke="#8b0000" stroke-width="2" fill="none" opacity="0.5"/>
+  </path>  <rect width="100%" height="100%" fill="url(#professionalPattern)"/>
 
     
 
-  <!-- Subtitle -->  <!-- Content -->
+  <!-- Left bracket -->  <!-- Professional waves (from banner 17, made red) -->
 
-  <text x="792" y="140" font-family="Courier New, monospace" font-size="24" fill="#ff69b4" text-anchor="middle" filter="url(#glow)">  <g transform="translate(730, 50)">
+  <text x="200" y="100" font-family="'Courier New', monospace" font-size="60" fill="#DC143C" filter="url(#glow)">[</text>  <path d="M0 200 Q200 100 400 200 Q600 300 800 200 Q1000 100 1200 200 Q1400 300 1584 200" stroke="#dc143c" stroke-width="3" fill="none" opacity="0.6"/>
 
-    Cybersecurity Analyst | Ethical Hacker | Purple Team    <text x="0" y="80" font-family="Arial, sans-serif" font-size="48" fill="#dc143c" font-weight="bold" filter="url(#codeGlow)">UMAIR AZIZ</text>
+    <path d="M0 250 Q200 350 400 250 Q600 150 800 250 Q1000 350 1200 250 Q1400 150 1584 250" stroke="#8b0000" stroke-width="2" fill="none" opacity="0.5"/>
 
-  </text>    <text x="0" y="130" font-family="Courier New, monospace" font-size="28" fill="#ff69b4" filter="url(#professionalGlow)">desire://forbidden.exe</text>
+  <!-- Main title - centered -->  
+
+  <text x="792" y="100" font-family="'Courier New', monospace" font-size="60" font-weight="bold" fill="#DC143C" text-anchor="middle" filter="url(#glow)">UMAIR AZIZ</text>  <!-- Content -->
+
+    <g transform="translate(730, 50)">
+
+  <!-- Right bracket -->    <text x="0" y="80" font-family="Arial, sans-serif" font-size="48" fill="#dc143c" font-weight="bold" filter="url(#codeGlow)">UMAIR AZIZ</text>
+
+  <text x="1344" y="100" font-family="'Courier New', monospace" font-size="60" fill="#DC143C" filter="url(#glow)">]</text>    <text x="0" y="130" font-family="Courier New, monospace" font-size="28" fill="#ff69b4" filter="url(#professionalGlow)">desire://forbidden.exe</text>
 
       <text x="0" y="170" font-family="Courier New, monospace" font-size="24" fill="#dc143c">0x41414141</text>
 
-  <!-- Terminal prompt -->    <text x="0" y="210" font-family="Arial, sans-serif" font-size="22" fill="#ffc0cb" style="font-style:italic">"Silent intrusion is</text>
+  <!-- Subtitle - centered -->    <text x="0" y="210" font-family="Arial, sans-serif" font-size="22" fill="#ffc0cb" style="font-style:italic">"Silent intrusion is</text>
 
-  <text x="792" y="180" font-family="Courier New, monospace" font-size="18" fill="#dc143c" text-anchor="middle" opacity="0.8">    <text x="0" y="240" font-family="Arial, sans-serif" font-size="22" fill="#ffc0cb" style="font-style:italic">the deadliest art"</text>
+  <text x="792" y="150" font-family="'Courier New', monospace" font-size="20" fill="#ff69b4" text-anchor="middle" opacity="0.9">Cybersecurity Expert | C3SA Certified Analyst | Ethical Hacker</text>    <text x="0" y="240" font-family="Arial, sans-serif" font-size="22" fill="#ffc0cb" style="font-style:italic">the deadliest art"</text>
 
-    root@darkweb:~# whoami    <text x="0" y="280" font-family="Courier New, monospace" font-size="18" fill="#cd5c5c">whoami: root@darkweb</text>
+      <text x="0" y="280" font-family="Courier New, monospace" font-size="18" fill="#cd5c5c">whoami: root@darkweb</text>
 
-  </text>    <text x="0" y="310" font-family="Courier New, monospace" font-size="16" fill="#8b4513">access granted ■■■ ■■ ■</text>
+  <!-- Terminal prompt - centered -->    <text x="0" y="310" font-family="Courier New, monospace" font-size="16" fill="#8b4513">access granted ■■■ ■■ ■</text>
 
-    </g>
+  <text x="792" y="190" font-family="'Courier New', monospace" font-size="16" fill="#00ff00" text-anchor="middle" opacity="0.7">root@security:~$</text>  </g>
 
-  <!-- Quote -->  
+    
 
-  <text x="792" y="240" font-family="Arial, sans-serif" font-size="20" fill="#ffc0cb" text-anchor="middle" style="font-style:italic">  <!-- Bug shield -->
+  <!-- Quote - centered -->  <!-- Bug shield -->
 
-    "Silent intrusion is the deadliest art"  <g transform="translate(1350, 80)">
+  <text x="792" y="220" font-family="'Courier New', monospace" font-size="14" fill="#DC143C" text-anchor="middle" opacity="0.6" font-style="italic">"The quieter you become, the more you can hear"</text>  <g transform="translate(1350, 80)">
 
-  </text>    <path d="M0 10l50 -25l50 25v75c0 25-22.5 50-50 75c-27.5-25-50-50-50-75V10z" fill="none" stroke="#dc143c" stroke-width="4" filter="url(#codeGlow)"/>
+      <path d="M0 10l50 -25l50 25v75c0 25-22.5 50-50 75c-27.5-25-50-50-50-75V10z" fill="none" stroke="#dc143c" stroke-width="4" filter="url(#codeGlow)"/>
 
-      <g transform="translate(50, 60)">
+  <!-- Glowing bug shield (right side) -->    <g transform="translate(50, 60)">
 
-  <!-- GLOWING BUG SHIELD on the right -->      <ellipse cx="0" cy="0" rx="20" ry="30" fill="#8b0000" opacity="0.9"/>
+  <circle cx="1400" cy="150" r="60" fill="url(#bugShield)" filter="url(#bugGlow)">      <ellipse cx="0" cy="0" rx="20" ry="30" fill="#8b0000" opacity="0.9"/>
 
-  <g transform="translate(1400, 80)">      
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>      
 
-    <!-- Shield outline -->      <!-- New cybersecurity bug -->
+  </circle>      <!-- New cybersecurity bug -->
 
-    <path d="M0 10 l40 -20 l40 20 v60 c0 20 -18 40 -40 60 c-22 -20 -40 -40 -40 -60 V10 z"       <!-- Bug body -->
+        <!-- Bug body -->
 
-          fill="none"       <ellipse cx="0" cy="0" rx="18" ry="25" fill="#2d0a0a" stroke="#dc143c" stroke-width="2"/>
+  <!-- Bug icon -->      <ellipse cx="0" cy="0" rx="18" ry="25" fill="#2d0a0a" stroke="#dc143c" stroke-width="2"/>
 
-          stroke="#dc143c"       
+  <g transform="translate(1370, 120)" filter="url(#bugGlow)">      
 
-          stroke-width="3"       <!-- Bug head -->
+    <!-- Bug body -->      <!-- Bug head -->
 
-          filter="url(#glow)"/>      <ellipse cx="0" cy="-20" rx="12" ry="15" fill="#8b0000" stroke="#dc143c" stroke-width="2"/>
+    <ellipse cx="30" cy="30" rx="20" ry="28" fill="#DC143C">      <ellipse cx="0" cy="-20" rx="12" ry="15" fill="#8b0000" stroke="#dc143c" stroke-width="2"/>
+
+      <animate attributeName="ry" values="28;30;28" dur="3s" repeatCount="indefinite"/>      
+
+    </ellipse>      <!-- Bug segments -->
+
+          <line x1="-15" y1="-10" x2="15" y2="-10" stroke="#dc143c" stroke-width="2"/>
+
+    <!-- Bug head -->      <line x1="-15" y1="0" x2="15" y2="0" stroke="#dc143c" stroke-width="2"/>
+
+    <circle cx="30" cy="12" r="10" fill="#8b0000">      <line x1="-15" y1="10" x2="15" y2="10" stroke="#dc143c" stroke-width="2"/>
+
+      <animate attributeName="r" values="10;11;10" dur="3s" repeatCount="indefinite"/>      
+
+    </circle>      <!-- Bug antennae -->
+
+          <line x1="-8" y1="-25" x2="-12" y2="-35" stroke="#ff69b4" stroke-width="2"/>
+
+    <!-- Antennae -->      <line x1="8" y1="-25" x2="12" y2="-35" stroke="#ff69b4" stroke-width="2"/>
+
+    <line x1="25" y1="8" x2="20" y2="2" stroke="#DC143C" stroke-width="2"/>      <circle cx="-12" cy="-35" r="2" fill="#ff69b4"/>
+
+    <line x1="35" y1="8" x2="40" y2="2" stroke="#DC143C" stroke-width="2"/>      <circle cx="12" cy="-35" r="2" fill="#ff69b4"/>
 
           
 
-    <!-- Bug with animated glow -->      <!-- Bug segments -->
+    <!-- Legs (left) -->      <!-- Bug legs -->
 
-    <g transform="translate(40, 50)" filter="url(#bugGlow)">      <line x1="-15" y1="-10" x2="15" y2="-10" stroke="#dc143c" stroke-width="2"/>
+    <line x1="15" y1="20" x2="5" y2="15" stroke="#DC143C" stroke-width="2"/>      <line x1="-18" y1="-15" x2="-28" y2="-20" stroke="#dc143c" stroke-width="2"/>
 
-      <!-- Bug body -->      <line x1="-15" y1="0" x2="15" y2="0" stroke="#dc143c" stroke-width="2"/>
+    <line x1="15" y1="30" x2="5" y2="30" stroke="#DC143C" stroke-width="2"/>      <line x1="-18" y1="0" x2="-30" y2="0" stroke="#dc143c" stroke-width="2"/>
 
-      <ellipse cx="0" cy="0" rx="15" ry="20" fill="#2d0a0a" stroke="#dc143c" stroke-width="2">      <line x1="-15" y1="10" x2="15" y2="10" stroke="#dc143c" stroke-width="2"/>
+    <line x1="15" y1="40" x2="5" y2="45" stroke="#DC143C" stroke-width="2"/>      <line x1="-18" y1="15" x2="-28" y2="20" stroke="#dc143c" stroke-width="2"/>
 
-        <animate attributeName="stroke" values="#dc143c;#ff0000;#dc143c" dur="2s" repeatCount="indefinite"/>      
+          <line x1="18" y1="-15" x2="28" y2="-20" stroke="#dc143c" stroke-width="2"/>
 
-      </ellipse>      <!-- Bug antennae -->
+    <!-- Legs (right) -->      <line x1="18" y1="0" x2="30" y2="0" stroke="#dc143c" stroke-width="2"/>
 
-            <line x1="-8" y1="-25" x2="-12" y2="-35" stroke="#ff69b4" stroke-width="2"/>
+    <line x1="45" y1="20" x2="55" y2="15" stroke="#DC143C" stroke-width="2"/>      <line x1="18" y1="15" x2="28" y2="20" stroke="#dc143c" stroke-width="2"/>
 
-      <!-- Bug head -->      <line x1="8" y1="-25" x2="12" y2="-35" stroke="#ff69b4" stroke-width="2"/>
+    <line x1="45" y1="30" x2="55" y2="30" stroke="#DC143C" stroke-width="2"/>      
 
-      <ellipse cx="0" cy="-16" rx="10" ry="12" fill="#8b0000" stroke="#dc143c" stroke-width="2">      <circle cx="-12" cy="-35" r="2" fill="#ff69b4"/>
+    <line x1="45" y1="40" x2="55" y2="45" stroke="#DC143C" stroke-width="2"/>      <!-- Bug eyes -->
 
-        <animate attributeName="stroke" values="#dc143c;#ff0000;#dc143c" dur="2s" repeatCount="indefinite"/>      <circle cx="12" cy="-35" r="2" fill="#ff69b4"/>
+          <circle cx="-6" cy="-20" r="3" fill="#ff0000" opacity="0.9"/>
 
-      </ellipse>      
+    <!-- Wing pattern -->      <circle cx="6" cy="-20" r="3" fill="#ff0000" opacity="0.9"/>
 
-            <!-- Bug legs -->
+    <path d="M 20 25 Q 15 30 20 35" fill="none" stroke="#ff69b4" stroke-width="1.5" opacity="0.8"/>      <circle cx="-6" cy="-20" r="1" fill="#ffffff"/>
 
-      <!-- Bug segments -->      <line x1="-18" y1="-15" x2="-28" y2="-20" stroke="#dc143c" stroke-width="2"/>
+    <path d="M 40 25 Q 45 30 40 35" fill="none" stroke="#ff69b4" stroke-width="1.5" opacity="0.8"/>      <circle cx="6" cy="-20" r="1" fill="#ffffff"/>
 
-      <line x1="-12" y1="-8" x2="12" y2="-8" stroke="#dc143c" stroke-width="1.5"/>      <line x1="-18" y1="0" x2="-30" y2="0" stroke="#dc143c" stroke-width="2"/>
+  </g>      
 
-      <line x1="-12" y1="0" x2="12" y2="0" stroke="#dc143c" stroke-width="1.5"/>      <line x1="-18" y1="15" x2="-28" y2="20" stroke="#dc143c" stroke-width="2"/>
-
-      <line x1="-12" y1="8" x2="12" y2="8" stroke="#dc143c" stroke-width="1.5"/>      <line x1="18" y1="-15" x2="28" y2="-20" stroke="#dc143c" stroke-width="2"/>
-
-            <line x1="18" y1="0" x2="30" y2="0" stroke="#dc143c" stroke-width="2"/>
-
-      <!-- Antennae with pulse -->      <line x1="18" y1="15" x2="28" y2="20" stroke="#dc143c" stroke-width="2"/>
-
-      <line x1="-6" y1="-20" x2="-10" y2="-28" stroke="#ff69b4" stroke-width="2"/>      
-
-      <line x1="6" y1="-20" x2="10" y2="-28" stroke="#ff69b4" stroke-width="2"/>      <!-- Bug eyes -->
-
-      <circle cx="-10" cy="-28" r="2" fill="#ff69b4">      <circle cx="-6" cy="-20" r="3" fill="#ff0000" opacity="0.9"/>
-
-        <animate attributeName="r" values="2;3.5;2" dur="1.5s" repeatCount="indefinite"/>      <circle cx="6" cy="-20" r="3" fill="#ff0000" opacity="0.9"/>
-
-        <animate attributeName="opacity" values="0.7;1;0.7" dur="1.5s" repeatCount="indefinite"/>      <circle cx="-6" cy="-20" r="1" fill="#ffffff"/>
-
-      </circle>      <circle cx="6" cy="-20" r="1" fill="#ffffff"/>
-
-      <circle cx="10" cy="-28" r="2" fill="#ff69b4">      
-
-        <animate attributeName="r" values="2;3.5;2" dur="1.5s" repeatCount="indefinite"/>      <!-- Bug spots/patterns -->
-
-        <animate attributeName="opacity" values="0.7;1;0.7" dur="1.5s" repeatCount="indefinite"/>      <circle cx="-8" cy="-5" r="2" fill="#ff69b4" opacity="0.6"/>
-
-      </circle>      <circle cx="8" cy="-5" r="2" fill="#ff69b4" opacity="0.6"/>
-
-            <circle cx="0" cy="8" r="3" fill="#dc143c" opacity="0.7"/>
-
-      <!-- Legs -->      
-
-      <line x1="-15" y1="-12" x2="-22" y2="-16" stroke="#dc143c" stroke-width="1.5"/>      <!-- Warning stripes -->
-
-      <line x1="-15" y1="0" x2="-24" y2="0" stroke="#dc143c" stroke-width="1.5"/>      <rect x="-20" y="-2" width="40" height="2" fill="#ff69b4" opacity="0.8"/>
-
-      <line x1="-15" y1="12" x2="-22" y2="16" stroke="#dc143c" stroke-width="1.5"/>      <rect x="-20" y="12" width="40" height="1" fill="#dc143c" opacity="0.9"/>
-
-      <line x1="15" y1="-12" x2="22" y2="-16" stroke="#dc143c" stroke-width="1.5"/>    </g>
-
-      <line x1="15" y1="0" x2="24" y2="0" stroke="#dc143c" stroke-width="1.5"/>    <text x="20" y="130" font-family="monospace" font-size="8" fill="#dc143c" opacity="0.7">01000011 01001111 01000100</text>
-
-      <line x1="15" y1="12" x2="22" y2="16" stroke="#dc143c" stroke-width="1.5"/>    <text x="25" y="145" font-family="monospace" font-size="8" fill="#8b0000" opacity="0.7">01000101 CODE SECURE</text>
-
-        </g>
-
-      <!-- Glowing eyes -->  
-
-      <circle cx="-5" cy="-16" r="2.5" fill="#ff0000" opacity="0.9">  <!-- Terminal -->
-
-        <animate attributeName="fill" values="#ff0000;#ff6666;#ff0000" dur="2s" repeatCount="indefinite"/>  <g transform="translate(50, 60)">
-
-      </circle>    <rect x="0" y="0" width="650" height="280" fill="#000000" stroke="#dc143c" stroke-width="2" opacity="0.95"/>
-
-      <circle cx="5" cy="-16" r="2.5" fill="#ff0000" opacity="0.9">    <text x="10" y="30" font-family="Courier New, monospace" font-size="14" fill="#dc143c">pentester@redteam:~$ nmap -sV --script vuln 192.168.1.0/24</text>
-
-        <animate attributeName="fill" values="#ff0000;#ff6666;#ff0000" dur="2s" repeatCount="indefinite"/>    <text x="10" y="50" font-family="Courier New, monospace" font-size="14" fill="#ff69b4">Starting vulnerability assessment...</text>
-
-      </circle>    <text x="10" y="70" font-family="Courier New, monospace" font-size="14" fill="#dc143c">22/tcp   open  ssh     OpenSSH 7.4</text>
-
-      <circle cx="-5" cy="-16" r="1" fill="#ffffff"/>    <text x="10" y="90" font-family="Courier New, monospace" font-size="14" fill="#ffc0cb">80/tcp   open  http    Apache httpd 2.4.6</text>
-
-      <circle cx="5" cy="-16" r="1" fill="#ffffff"/>    <text x="10" y="110" font-family="Courier New, monospace" font-size="14" fill="#dc143c">pentester@redteam:~$ sudo -l</text>
-
-          <text x="10" y="130" font-family="Courier New, monospace" font-size="14" fill="#ff69b4">User may run: /usr/bin/vim, /bin/cat</text>
-
-      <!-- Bug spots -->    <text x="10" y="150" font-family="Courier New, monospace" font-size="14" fill="#dc143c">pentester@redteam:~$ ./privilege_escalation.sh</text>
-
-      <circle cx="-6" cy="-4" r="1.5" fill="#ff69b4" opacity="0.6">    <text x="10" y="170" font-family="Courier New, monospace" font-size="14" fill="#ffc0cb">Privilege escalation successful!</text>
-
-        <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>    <text x="10" y="190" font-family="Courier New, monospace" font-size="14" fill="#dc143c">root@redteam:~# whoami</text>
-
-      </circle>    <text x="10" y="210" font-family="Courier New, monospace" font-size="14" fill="#ff69b4">root - Access granted</text>
-
-      <circle cx="6" cy="-4" r="1.5" fill="#ff69b4" opacity="0.6">    <text x="10" y="230" font-family="Courier New, monospace" font-size="14" fill="#dc143c">root@redteam:~# █</text>
-
-        <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>  </g>
-
-      </circle></svg>
-
-      <circle cx="0" cy="6" r="2" fill="#dc143c" opacity="0.7">
-        <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
-      </circle>
+</svg>      <!-- Bug spots/patterns -->
+      <circle cx="-8" cy="-5" r="2" fill="#ff69b4" opacity="0.6"/>
+      <circle cx="8" cy="-5" r="2" fill="#ff69b4" opacity="0.6"/>
+      <circle cx="0" cy="8" r="3" fill="#dc143c" opacity="0.7"/>
+      
+      <!-- Warning stripes -->
+      <rect x="-20" y="-2" width="40" height="2" fill="#ff69b4" opacity="0.8"/>
+      <rect x="-20" y="12" width="40" height="1" fill="#dc143c" opacity="0.9"/>
     </g>
-    
-    <!-- Binary code under shield -->
-    <text x="40" y="140" font-family="monospace" font-size="8" fill="#dc143c" opacity="0.6" text-anchor="middle">
-      01000010 01010101 01000111
-    </text>
+    <text x="20" y="130" font-family="monospace" font-size="8" fill="#dc143c" opacity="0.7">01000011 01001111 01000100</text>
+    <text x="25" y="145" font-family="monospace" font-size="8" fill="#8b0000" opacity="0.7">01000101 CODE SECURE</text>
   </g>
   
-  <!-- Left corner accent - terminal bracket -->
-  <g transform="translate(50, 50)" opacity="0.6">
-    <path d="M 40 0 L 0 0 L 0 200 L 40 200" stroke="#dc143c" stroke-width="2" fill="none" filter="url(#glow)"/>
-    <text x="10" y="20" font-family="monospace" font-size="12" fill="#dc143c">{'</text>
-    <text x="10" y="190" font-family="monospace" font-size="12" fill="#dc143c">'}</text>
+  <!-- Terminal -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="650" height="280" fill="#000000" stroke="#dc143c" stroke-width="2" opacity="0.95"/>
+    <text x="10" y="30" font-family="Courier New, monospace" font-size="14" fill="#dc143c">pentester@redteam:~$ nmap -sV --script vuln 192.168.1.0/24</text>
+    <text x="10" y="50" font-family="Courier New, monospace" font-size="14" fill="#ff69b4">Starting vulnerability assessment...</text>
+    <text x="10" y="70" font-family="Courier New, monospace" font-size="14" fill="#dc143c">22/tcp   open  ssh     OpenSSH 7.4</text>
+    <text x="10" y="90" font-family="Courier New, monospace" font-size="14" fill="#ffc0cb">80/tcp   open  http    Apache httpd 2.4.6</text>
+    <text x="10" y="110" font-family="Courier New, monospace" font-size="14" fill="#dc143c">pentester@redteam:~$ sudo -l</text>
+    <text x="10" y="130" font-family="Courier New, monospace" font-size="14" fill="#ff69b4">User may run: /usr/bin/vim, /bin/cat</text>
+    <text x="10" y="150" font-family="Courier New, monospace" font-size="14" fill="#dc143c">pentester@redteam:~$ ./privilege_escalation.sh</text>
+    <text x="10" y="170" font-family="Courier New, monospace" font-size="14" fill="#ffc0cb">Privilege escalation successful!</text>
+    <text x="10" y="190" font-family="Courier New, monospace" font-size="14" fill="#dc143c">root@redteam:~# whoami</text>
+    <text x="10" y="210" font-family="Courier New, monospace" font-size="14" fill="#ff69b4">root - Access granted</text>
+    <text x="10" y="230" font-family="Courier New, monospace" font-size="14" fill="#dc143c">root@redteam:~# █</text>
   </g>
-  
-  <!-- Binary footer -->
-  <text x="50%" y="280" font-family="monospace" font-size="10" fill="#8b0000" opacity="0.5" text-anchor="middle">
-    01010000 01000101 01001110 01010100 01000101 01010011 01010100 01000101 01010010
-  </text>
 </svg>
