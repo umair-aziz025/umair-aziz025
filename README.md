@@ -81,10 +81,6 @@
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:umairaziz682@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/umair-aziz025)
 
-📍 **Location:** Mirpur, AJK, Pakistan  
-📧 **Email:** umairaziz682@gmail.com  
-📱 **Phone:** +92 314 6018728  
-🌐 **Languages:** English (Fluent) | Urdu (Native)
 
 </div>
 
@@ -132,5 +128,6 @@
 **⭐ Star my repositories if you find them useful!**
 
 </div>
+
 
 
