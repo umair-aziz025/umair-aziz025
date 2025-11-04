@@ -88,7 +88,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%E2%96%B6+%22Silent+intrusion+is+the+deadliest+art%22;%E2%96%B6+Building+secure+systems%2C+one+vulnerability+at+a+time)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&repeat=true&width=700&lines=%E2%96%B6+%22Silent+intrusion+is+the+deadliest+art%22)](https://git.io/typing-svg)
 
 </div>
 
