@@ -58,10 +58,10 @@
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=umair-aziz025&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00&text_color=c9d1d9" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=umair-aziz025&theme=dark&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakLabel=00FF00" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=umair-aziz025&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=00FF00&icon_color=00FF00&text_color=c9d1d9" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=umair-aziz025&theme=dark&hide_border=true&background=00000000&ring=00FF00&fire=00FF00&currStreakLabel=00FF00" />
 
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umair-aziz025&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=c9d1d9" />
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umair-aziz025&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=00FF00&text_color=c9d1d9" />
 
 </div>
 
@@ -110,7 +110,7 @@
 
 ### ⚡ Activity Graph
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=umair-aziz025&theme=github-compact&bg_color=0D1117&color=00FF00&line=00FF00&point=ffffff&area=true&hide_border=true)](https://github.com/umair-aziz025)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=umair-aziz025&theme=github-compact&bg_color=00000000&color=00FF00&line=00FF00&point=ffffff&area=true&hide_border=true)](https://github.com/umair-aziz025)
 
 </div>
 
