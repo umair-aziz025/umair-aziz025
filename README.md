@@ -88,14 +88,14 @@
 
 <div align="center">
 
-```ascii
-╔═══════════════════════════════════════════════════════════╗
-║                                                           ║
-║     "Silent intrusion is the deadliest art"              ║
-║                                                           ║
-║   Building secure systems, one vulnerability at a time   ║
-║                                                           ║
-╚═══════════════════════════════════════════════════════════╝
+```console
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│  ▶ "Silent intrusion is the deadliest art"                 │
+│                                                             │
+│  ▶ Building secure systems, one vulnerability at a time    │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 </div>
