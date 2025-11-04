@@ -6,7 +6,7 @@
 <br/>
 
 <!-- Typing SVG -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=DC143C&center=true&vCenter=true&random=false&width=700&lines=Gold+Medalist+%26+C3SA+Certified+Analyst;Web+Penetration+Tester+%7C+Purple+Team;Top+3+VetSecCon+CTF+2025+🏆;Building+Secure+Digital+Assets+🔐)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=DC143C&center=true&vCenter=true&random=false&width=700&lines=C3SA\+Certified\+Analyst\+%7C\+CEH\+%7C\+CHFI;Web+Penetration+Tester+%7C+Purple+Team;Top+3+VetSecCon+CTF+2025+🏆;Building+Secure+Digital+Assets+🔐)](https://git.io/typing-svg)
 
 <br/>
 
@@ -119,7 +119,7 @@
 </div>
 
 <!-- Animated Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&v=2"/>
+<img src="https://raw.githubusercontent.com/umair-aziz025/umair-aziz025/main/footer.svg"/>
 
 <div align="center">
   
@@ -128,6 +128,7 @@
 **⭐ Star my repositories if you find them useful!**
 
 </div>
+
 
 
 
