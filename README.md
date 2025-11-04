@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=DC143C&center=true&vCenter=true&random=false&width=700&lines=C3SA+Certified+Analyst+%7C+CEH+%7C+CHFI;Web+Penetration+Tester+%7C+Purple+Team;Top+3+VetSecCon+CTF+2025;Building+Secure+Digital+Assets)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&random=false&width=700&lines=C3SA+Certified+Analyst+%7C+CEH+%7C+CHFI;Web+Penetration+Tester+%7C+Purple+Team;Top+3+VetSecCon+CTF+2025;Building+Secure+Digital+Assets)](https://git.io/typing-svg)
 
 <br/>
 
@@ -58,10 +58,10 @@
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=umair-aziz025&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=DC143C&icon_color=DC143C&text_color=c9d1d9" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=umair-aziz025&theme=radical&hide_border=true&background=0D1117&ring=DC143C&fire=DC143C&currStreakLabel=DC143C" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=umair-aziz025&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00&text_color=c9d1d9" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=umair-aziz025&theme=dark&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakLabel=00FF00" />
 
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umair-aziz025&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=DC143C&text_color=c9d1d9" />
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umair-aziz025&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=c9d1d9" />
 
 </div>
 
@@ -73,7 +73,7 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-DC143C?style=for-the-badge&logo=google-chrome&logoColor=white)](https://umairaziz-cyber-portfolio.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00FF00?style=for-the-badge&logo=google-chrome&logoColor=white)](https://umairaziz-cyber-portfolio.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/umairaziz001)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:umairaziz682@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/umair-aziz025)
@@ -106,11 +106,11 @@
 
 ### 👁️ Profile Views
 
-![](https://komarev.com/ghpvc/?username=umair-aziz025&color=DC143C&style=for-the-badge&label=PROFILE+VIEWS)
+![](https://komarev.com/ghpvc/?username=umair-aziz025&color=00FF00&style=for-the-badge&label=PROFILE+VIEWS)
 
 ### ⚡ Activity Graph
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=umair-aziz025&theme=react-dark&bg_color=0D1117&color=DC143C&line=DC143C&point=ffffff&area=true&hide_border=true)](https://github.com/umair-aziz025)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=umair-aziz025&theme=github-compact&bg_color=0D1117&color=00FF00&line=00FF00&point=ffffff&area=true&hide_border=true)](https://github.com/umair-aziz025)
 
 </div>
 
