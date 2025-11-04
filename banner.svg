@@ -1,80 +1,156 @@
-<svg width="1584" height="300" xmlns="http://www.w3.org/2000/svg"><?xml version="1.0" encoding="utf-8"?>
+<svg width="1584" height="300" xmlns="http://www.w3.org/2000/svg"><svg width="1584" height="300" xmlns="http://www.w3.org/2000/svg"><?xml version="1.0" encoding="utf-8"?>
 
-  <defs><svg width="1584" height="396" viewBox="0 0 1584 396" xmlns="http://www.w3.org/2000/svg">
+  <defs>
 
-    <!-- Background gradient -->  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">  <defs><svg width="1584" height="396" viewBox="0 0 1584 396" xmlns="http://www.w3.org/2000/svg">
 
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">    <!-- Professional crimson gradient -->
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
 
-      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />    <radialGradient id="professionalBg" cx="50%" cy="50%" r="100%">
+      <stop offset="100%" style="stop-color:#1a0000;stop-opacity:1" />    <!-- Background gradient -->  <defs>
 
-      <stop offset="100%" style="stop-color:#1a0000;stop-opacity:1" />      <stop offset="0%" style="stop-color:#8b0000;stop-opacity:1" />
+    </linearGradient>
 
-    </linearGradient>      <stop offset="40%" style="stop-color:#2d0a0a;stop-opacity:1" />
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">    <!-- Professional crimson gradient -->
 
-          <stop offset="80%" style="stop-color:#1a0606;stop-opacity:1" />
+    <filter id="glow">
 
-    <!-- Glow effect for text -->      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />    <radialGradient id="professionalBg" cx="50%" cy="50%" r="100%">
 
-    <filter id="glow">    </radialGradient>
+      <feMerge>
 
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>    
+        <feMergeNode in="coloredBlur"/>      <stop offset="100%" style="stop-color:#1a0000;stop-opacity:1" />      <stop offset="0%" style="stop-color:#8b0000;stop-opacity:1" />
 
-      <feMerge>    <!-- Code glow -->
+        <feMergeNode in="SourceGraphic"/>
 
-        <feMergeNode in="coloredBlur"/>    <filter id="codeGlow">
+      </feMerge>    </linearGradient>      <stop offset="40%" style="stop-color:#2d0a0a;stop-opacity:1" />
 
-        <feMergeNode in="SourceGraphic"/>      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+    </filter>
 
-      </feMerge>      <feMerge>
+              <stop offset="80%" style="stop-color:#1a0606;stop-opacity:1" />
 
-    </filter>        <feMergeNode in="coloredBlur"/>
+    <filter id="bugGlow">
 
-            <feMergeNode in="SourceGraphic"/>
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>    <!-- Glow effect for text -->      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
 
-    <!-- Bug glow effect -->      </feMerge>
+      <feMerge>
 
-    <filter id="bugGlow">    </filter>
+        <feMergeNode in="coloredBlur"/>    <filter id="glow">    </radialGradient>
 
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>    
+        <feMergeNode in="SourceGraphic"/>
 
-      <feMerge>    <!-- Professional glow -->
+      </feMerge>      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>    
 
-        <feMergeNode in="coloredBlur"/>    <filter id="professionalGlow">
+    </filter>
 
-        <feMergeNode in="SourceGraphic"/>      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+          <feMerge>    <!-- Code glow -->
 
-      </feMerge>      <feMerge>
+    <radialGradient id="bugShield">
 
-    </filter>        <feMergeNode in="coloredBlur"/>
+      <stop offset="0%" style="stop-color:#DC143C;stop-opacity:0.8"/>        <feMergeNode in="coloredBlur"/>    <filter id="codeGlow">
 
-            <feMergeNode in="SourceGraphic"/>
+      <stop offset="100%" style="stop-color:#8b0000;stop-opacity:0.2"/>
 
-    <!-- Radial gradient for bug shield -->      </feMerge>
+    </radialGradient>        <feMergeNode in="SourceGraphic"/>      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
 
-    <radialGradient id="bugShield">    </filter>
+  </defs>
 
-      <stop offset="0%" style="stop-color:#DC143C;stop-opacity:0.8"/>    
+        </feMerge>      <feMerge>
 
-      <stop offset="100%" style="stop-color:#8b0000;stop-opacity:0.2"/>    <!-- Professional pattern -->
+  <rect width="1584" height="300" fill="url(#bgGrad)"/>
 
-    </radialGradient>    <pattern id="professionalPattern" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      </filter>        <feMergeNode in="coloredBlur"/>
 
-  </defs>      <rect width="120" height="120" fill="none"/>
+  <g opacity="0.1">
 
-        <g stroke="#dc143c" stroke-width="0.3" opacity="0.2" fill="none">
+    <line x1="0" y1="50" x2="1584" y2="50" stroke="#DC143C" stroke-width="0.5"/>            <feMergeNode in="SourceGraphic"/>
 
-  <!-- Background -->        <!-- Code brackets -->
+    <line x1="0" y1="100" x2="1584" y2="100" stroke="#DC143C" stroke-width="0.5"/>
 
-  <rect width="1584" height="300" fill="url(#bgGrad)"/>        <path d="M20 20 L10 20 L10 30 L20 30"/>
+    <line x1="0" y1="150" x2="1584" y2="150" stroke="#DC143C" stroke-width="0.5"/>    <!-- Bug glow effect -->      </feMerge>
 
-          <path d="M100 20 L110 20 L110 30 L100 30"/>
+    <line x1="0" y1="200" x2="1584" y2="200" stroke="#DC143C" stroke-width="0.5"/>
 
-  <!-- Grid pattern -->        <path d="M20 90 L10 90 L10 100 L20 100"/>
+    <line x1="0" y1="250" x2="1584" y2="250" stroke="#DC143C" stroke-width="0.5"/>    <filter id="bugGlow">    </filter>
 
-  <g opacity="0.1">        <path d="M100 90 L110 90 L110 100 L100 100"/>
+  </g>
 
-    <line x1="0" y1="50" x2="1584" y2="50" stroke="#DC143C" stroke-width="0.5"/>        <!-- Binary dots -->
+        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>    
+
+  <path d="M0,200 Q396,180 792,200 T1584,200 L1584,300 L0,300 Z" fill="#DC143C" opacity="0.1">
+
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"      <feMerge>    <!-- Professional glow -->
+
+             values="M0,200 Q396,180 792,200 T1584,200 L1584,300 L0,300 Z;
+
+                     M0,200 Q396,220 792,200 T1584,200 L1584,300 L0,300 Z;        <feMergeNode in="coloredBlur"/>    <filter id="professionalGlow">
+
+                     M0,200 Q396,180 792,200 T1584,200 L1584,300 L0,300 Z"/>
+
+  </path>        <feMergeNode in="SourceGraphic"/>      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+
+  
+
+  <text x="200" y="100" font-family="'Courier New', monospace" font-size="60" fill="#DC143C" filter="url(#glow)">[</text>      </feMerge>      <feMerge>
+
+  <text x="792" y="100" font-family="'Courier New', monospace" font-size="60" font-weight="bold" fill="#DC143C" text-anchor="middle" filter="url(#glow)">UMAIR AZIZ</text>
+
+  <text x="1344" y="100" font-family="'Courier New', monospace" font-size="60" fill="#DC143C" filter="url(#glow)">]</text>    </filter>        <feMergeNode in="coloredBlur"/>
+
+  
+
+  <text x="792" y="150" font-family="'Courier New', monospace" font-size="20" fill="#ff69b4" text-anchor="middle" opacity="0.9">Cybersecurity Expert | C3SA Certified Analyst | Ethical Hacker</text>            <feMergeNode in="SourceGraphic"/>
+
+  <text x="792" y="190" font-family="'Courier New', monospace" font-size="16" fill="#00ff00" text-anchor="middle" opacity="0.7">root@security:~$</text>
+
+  <text x="792" y="220" font-family="'Courier New', monospace" font-size="14" fill="#DC143C" text-anchor="middle" opacity="0.6" font-style="italic">"The quieter you become, the more you can hear"</text>    <!-- Radial gradient for bug shield -->      </feMerge>
+
+  
+
+  <circle cx="1400" cy="150" r="60" fill="url(#bugShield)" filter="url(#bugGlow)">    <radialGradient id="bugShield">    </filter>
+
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+
+  </circle>      <stop offset="0%" style="stop-color:#DC143C;stop-opacity:0.8"/>    
+
+  
+
+  <g transform="translate(1370, 120)" filter="url(#bugGlow)">      <stop offset="100%" style="stop-color:#8b0000;stop-opacity:0.2"/>    <!-- Professional pattern -->
+
+    <ellipse cx="30" cy="30" rx="20" ry="28" fill="#DC143C">
+
+      <animate attributeName="ry" values="28;30;28" dur="3s" repeatCount="indefinite"/>    </radialGradient>    <pattern id="professionalPattern" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+
+    </ellipse>
+
+    <circle cx="30" cy="12" r="10" fill="#8b0000">  </defs>      <rect width="120" height="120" fill="none"/>
+
+      <animate attributeName="r" values="10;11;10" dur="3s" repeatCount="indefinite"/>
+
+    </circle>        <g stroke="#dc143c" stroke-width="0.3" opacity="0.2" fill="none">
+
+    <line x1="25" y1="8" x2="20" y2="2" stroke="#DC143C" stroke-width="2"/>
+
+    <line x1="35" y1="8" x2="40" y2="2" stroke="#DC143C" stroke-width="2"/>  <!-- Background -->        <!-- Code brackets -->
+
+    <line x1="15" y1="20" x2="5" y2="15" stroke="#DC143C" stroke-width="2"/>
+
+    <line x1="15" y1="30" x2="5" y2="30" stroke="#DC143C" stroke-width="2"/>  <rect width="1584" height="300" fill="url(#bgGrad)"/>        <path d="M20 20 L10 20 L10 30 L20 30"/>
+
+    <line x1="15" y1="40" x2="5" y2="45" stroke="#DC143C" stroke-width="2"/>
+
+    <line x1="45" y1="20" x2="55" y2="15" stroke="#DC143C" stroke-width="2"/>          <path d="M100 20 L110 20 L110 30 L100 30"/>
+
+    <line x1="45" y1="30" x2="55" y2="30" stroke="#DC143C" stroke-width="2"/>
+
+    <line x1="45" y1="40" x2="55" y2="45" stroke="#DC143C" stroke-width="2"/>  <!-- Grid pattern -->        <path d="M20 90 L10 90 L10 100 L20 100"/>
+
+    <path d="M 20 25 Q 15 30 20 35" fill="none" stroke="#ff69b4" stroke-width="1.5" opacity="0.8"/>
+
+    <path d="M 40 25 Q 45 30 40 35" fill="none" stroke="#ff69b4" stroke-width="1.5" opacity="0.8"/>  <g opacity="0.1">        <path d="M100 90 L110 90 L110 100 L100 100"/>
+
+  </g>
+
+</svg>    <line x1="0" y1="50" x2="1584" y2="50" stroke="#DC143C" stroke-width="0.5"/>        <!-- Binary dots -->
 
     <line x1="0" y1="100" x2="1584" y2="100" stroke="#DC143C" stroke-width="0.5"/>        <circle cx="30" cy="60" r="1"/>
 

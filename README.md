@@ -1,24 +1,24 @@
-﻿<div align="center">
+<div align="center">
 
-<!-- Custom Hacker Banner -->
 ![Banner](https://raw.githubusercontent.com/umair-aziz025/umair-aziz025/main/banner.svg)
+
 <br/>
 
-<!-- Typing SVG -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=DC143C&center=true&vCenter=true&random=false&width=700&lines=C3SA\+Certified\+Analyst\+%7C\+CEH\+%7C\+CHFI;Web+Penetration+Tester+%7C+Purple+Team;Top+3+VetSecCon+CTF+2025+ðŸ;Building+Secure+Digital+Assets+ðŸ")](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=DC143C&center=true&vCenter=true&random=false&width=700&lines=C3SA+Certified+Analyst+%7C+CEH+%7C+CHFI;Web+Penetration+Tester+%7C+Purple+Team;Top+3+VetSecCon+CTF+2025;Building+Secure+Digital+Assets)](https://git.io/typing-svg)
+
 <br/>
 
-<!-- Glowing Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
+
 </div>
 
 <br/>
 
-## ðŸ ï Technical Arsenal
+## 🛠️ Technical Arsenal
 
 <div align="center">
 
-### ðŸ" Offensive Tools
+### 🔴 Offensive Security
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
@@ -26,23 +26,23 @@
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-000000?style=for-the-badge&logo=nmap&logoColor=white)
 
-### ðŸ' Programming & Development
+### 💻 Development Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### ðŸ" DevOps & Tools
+### 🔧 DevOps & Tools
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-### ðŸï Security Frameworks
+### 🛡️ Security Frameworks
 ![NIST](https://img.shields.io/badge/NIST%20CSF-000000?style=for-the-badge&logo=nist&logoColor=white)
 ![ISO 27001](https://img.shields.io/badge/ISO%2027001-FF0000?style=for-the-badge&logo=iso&logoColor=white)
 ![OWASP Top 10](https://img.shields.io/badge/OWASP%20Top%2010-000000?style=for-the-badge&logo=owasp&logoColor=white)
@@ -51,10 +51,10 @@
 </div>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
 </div>
 
-## ðŸ"Š GitHub Stats
+## 📊 GitHub Statistics
 
 <div align="center">
 
@@ -66,10 +66,10 @@
 </div>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
 </div>
 
-## ðŸŒ Connect With Me
+## 🌐 Connect With Me
 
 <div align="center">
 
@@ -81,22 +81,22 @@
 </div>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
 </div>
 
-## ðŸ' Quote
+## 💡 Security Quote
 
 <div align="center">
 
-`scii
-â"âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
-â'                                                               â'
-â'     "Silent intrusion is the deadliest art"  ðŸµï             â'
-â'                                                               â'
-â'   Building secure systems, one vulnerability at a time. ðŸ"   â'
-â'                                                               â'
-âšâââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
-`
+```ascii
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║     "Silent intrusion is the deadliest art"              ║
+║                                                           ║
+║   Building secure systems, one vulnerability at a time   ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+```
 
 </div>
 
@@ -104,20 +104,20 @@
 
 <div align="center">
 
-### ðŸ'ï Profile Views Counter
+### 👁️ Profile Views
 
 ![](https://komarev.com/ghpvc/?username=umair-aziz025&color=DC143C&style=for-the-badge&label=PROFILE+VIEWS)
 
-### âš Activity Graph
+### ⚡ Activity Graph
 
-[![Umair's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=umair-aziz025&theme=react-dark&bg_color=0D1117&color=DC143C&line=DC143C&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=umair-aziz025&theme=react-dark&bg_color=0D1117&color=DC143C&line=DC143C&point=ffffff&area=true&hide_border=true)](https://github.com/umair-aziz025)
 
 </div>
 
 <div align="center">
 
-### ðŸ" "Hack The Planet, Secure The Future" ðŸ"
+### 🔐 "Hack The Planet, Secure The Future" 🔐
 
-**â Star my repositories if you find them useful!**
+**⭐ Star my repositories if you find them useful!**
 
 </div>
