@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=UMAIR%20AZIZ&fontSize=50&fontColor=DC143C&animation=twinkling&fontAlignY=35&desc=Cybersecurity%20Analyst%20|%20Ethical%20Hacker%20|%20Purple%20Team&descAlignY=55&descSize=18"/>
+<!-- Custom Hacker Banner -->
+![Banner](./banner.svg)
 
 <br/>
 
