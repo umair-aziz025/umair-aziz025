@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Custom Hacker Banner -->
-![Banner](./banner.svg)
+![Banner](https://raw.githubusercontent.com/umair-aziz025/umair-aziz025/main/banner.svg)
 
 <br/>
 
@@ -132,3 +132,4 @@
 **⭐ Star my repositories if you find them useful!**
 
 </div>
+
