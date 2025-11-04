@@ -1,11 +1,12 @@
 <div align="center">
 
-![Banner](https://raw.githubusercontent.com/umair-aziz025/umair-aziz025/main/banner.svg)
+<!-- Animated Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=UMAIR%20AZIZ&fontSize=50&fontColor=DC143C&animation=twinkling&fontAlignY=35&desc=Cybersecurity%20Analyst%20|%20Ethical%20Hacker%20|%20Purple%20Team&descAlignY=55&descSize=18"/>
 
 <br/>
 
 <!-- Typing SVG -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=DC143C&center=true&vCenter=true&random=false&width=700&lines=Gold+Medalist+%26+C3SA+Certified+Analyst;Web+Penetration+Tester+%7C+Purple+Team;Top+3+VetSecCon+CTF+2025+🏆;Building+Secure+Digital+Assets+🔐" alt="Typing SVG" /></a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=DC143C&center=true&vCenter=true&random=false&width=700&lines=Gold+Medalist+%26+C3SA+Certified+Analyst;Web+Penetration+Tester+%7C+Purple+Team;Top+3+VetSecCon+CTF+2025+🏆;Building+Secure+Digital+Assets+🔐)](https://git.io/typing-svg)
 
 <br/>
 
