@@ -119,7 +119,7 @@
 </div>
 
 <!-- Animated Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&v=2"/>
 
 <div align="center">
   
@@ -128,6 +128,7 @@
 **⭐ Star my repositories if you find them useful!**
 
 </div>
+
 
 
 
