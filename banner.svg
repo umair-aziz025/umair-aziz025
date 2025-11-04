@@ -1,4 +1,4 @@
-﻿<svg width="1584" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="1584" height="300" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="glow">
       <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
