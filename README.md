@@ -8,7 +8,7 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="1000">
+<img src="https://raw.githubusercontent.com/umair-aziz025/umair-aziz025/main/divider.svg" width="1000">
 
 </div>
 
@@ -26,7 +26,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="1000">
+<img src="https://raw.githubusercontent.com/umair-aziz025/umair-aziz025/main/divider.svg" width="1000">
 </div>
 
 <div align="center">
