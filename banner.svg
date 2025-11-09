@@ -18,8 +18,41 @@
       <stop offset="0%" style="stop-color:#00ff00;stop-opacity:0.3"/>
       <stop offset="100%" style="stop-color:#008000;stop-opacity:0.1"/>
     </radialGradient>
+    <radialGradient id="radarGradient">
+      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#00ff00;stop-opacity:0"/>
+    </radialGradient>
   </defs>
   <rect width="1584" height="300" fill="none"/>
+  
+  <!-- Binary code rain background -->
+  <g opacity="0.15">
+    <text x="100" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
+      01101000 01110101 01101110 01110100
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,300" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="300" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
+      01110100 01101000 01110010 01100101
+      <animateTransform attributeName="transform" type="translate" values="0,-50; 0,300" dur="10s" repeatCount="indefinite"/>
+    </text>
+    <text x="500" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
+      01100001 01110100 01110011 00100000
+      <animateTransform attributeName="transform" type="translate" values="0,-100; 0,300" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="900" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
+      01100100 01100101 01100110 01100101
+      <animateTransform attributeName="transform" type="translate" values="0,-30; 0,300" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="1100" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
+      01101110 01100100 01100101 01110010
+      <animateTransform attributeName="transform" type="translate" values="0,-80; 0,300" dur="11s" repeatCount="indefinite"/>
+    </text>
+    <text x="1300" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
+      01110011 01100101 01100011 00100000
+      <animateTransform attributeName="transform" type="translate" values="0,-150; 0,300" dur="13s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  
   <g opacity="0.2">
     <line x1="0" y1="75" x2="1584" y2="75" stroke="#00ff00" stroke-width="0.5"/>
     <line x1="0" y1="150" x2="1584" y2="150" stroke="#00ff00" stroke-width="0.5"/>
@@ -28,12 +61,52 @@
   <path d="M0,200 Q396,180 792,200 T1584,200 L1584,300 L0,300 Z" fill="#00ff00" opacity="0.1">
     <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0,200 Q396,180 792,200 T1584,200 L1584,300 L0,300 Z;M0,200 Q396,220 792,200 T1584,200 L1584,300 L0,300 Z;M0,200 Q396,180 792,200 T1584,200 L1584,300 L0,300 Z"/>
   </path>
+  
+  <!-- Scanning Radar Animation (Left side) -->
+  <g transform="translate(200, 150)">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
+    <line x1="0" y1="0" x2="0" y2="-50" stroke="#00ff00" stroke-width="2" opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <path d="M 0,0 L 0,-50 A 50,50 0 0,1 35.35,-35.35 Z" fill="url(#radarGradient)">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <!-- Radar blips -->
+    <circle cx="15" cy="-20" r="2" fill="#00ff00" opacity="0.8">
+      <animate attributeName="opacity" values="0;0.8;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-25" cy="15" r="2" fill="#00ff00" opacity="0.8">
+      <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Crosshair/Target Icon (Threat Hunter theme) -->
+  <g transform="translate(150, 150)" filter="url(#glow)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#00ff00" stroke-width="2" opacity="0.6">
+      <animate attributeName="r" values="30;32;30" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#00ff00" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#00ff00" stroke-width="1" opacity="0.4"/>
+    <circle cx="0" cy="0" r="3" fill="#00ff00" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="-35" y1="0" x2="-32" y2="0" stroke="#00ff00" stroke-width="2"/>
+    <line x1="35" y1="0" x2="32" y2="0" stroke="#00ff00" stroke-width="2"/>
+    <line x1="0" y1="-35" x2="0" y2="-32" stroke="#00ff00" stroke-width="2"/>
+    <line x1="0" y1="35" x2="0" y2="32" stroke="#00ff00" stroke-width="2"/>
+    <text x="0" y="50" font-family="Courier New, monospace" font-size="10" fill="#00ff00" text-anchor="middle" opacity="0.7">TARGET</text>
+  </g>
+  
   <text x="200" y="100" font-family="Courier New, monospace" font-size="60" fill="#00ff00" filter="url(#glow)">[</text>
   <text x="792" y="100" font-family="Courier New, monospace" font-size="60" font-weight="bold" fill="#00ff00" text-anchor="middle" filter="url(#glow)">UMAIR AZIZ</text>
   <text x="1344" y="100" font-family="Courier New, monospace" font-size="60" fill="#00ff00" filter="url(#glow)">]</text>
   <text x="792" y="150" font-family="Courier New, monospace" font-size="20" fill="#32cd32" text-anchor="middle" opacity="0.9">Threat Hunter | Cyber Defender | Purple Team | Ethical Hacker</text>
-  <text x="792" y="190" font-family="Courier New, monospace" font-size="16" fill="#00ff00" text-anchor="middle" opacity="0.75">root@security:~$</text>
-  <text x="792" y="220" font-family="Courier New, monospace" font-size="14" fill="#32cd32" text-anchor="middle" opacity="0.7" font-style="italic">"The quieter you become, the more you can hear"</text>
+  <text x="792" y="190" font-family="Courier New, monospace" font-size="16" fill="#00ff00" text-anchor="middle" opacity="0.75">root@threat-hunter:~$<tspan opacity="0.8">_</tspan>
+    <animate attributeName="opacity" values="0.75;0.75;0.75;0.75" dur="1s" repeatCount="indefinite"/>
+  </text>
+  <text x="792" y="220" font-family="Courier New, monospace" font-size="14" fill="#32cd32" text-anchor="middle" opacity="0.7" font-style="italic">"Hunt threats before they hunt you"</text>
   <circle cx="1400" cy="150" r="60" fill="url(#bugShield)" filter="url(#bugGlow)">
     <animate attributeName="opacity" values="0.5;0.8;0.5" dur="3s" repeatCount="indefinite"/>
   </circle>
