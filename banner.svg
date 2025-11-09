@@ -25,31 +25,88 @@
   </defs>
   <rect width="1584" height="300" fill="none"/>
   
-  <!-- Binary code rain background -->
-  <g opacity="0.15">
-    <text x="100" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
-      01101000 01110101 01101110 01110100
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,300" dur="8s" repeatCount="indefinite"/>
+  <!-- Binary code rain background - Matrix style -->
+  <g opacity="0.12" font-family="Courier New, monospace" font-size="10" fill="#00ff00">
+    <!-- Column 1 -->
+    <text x="80" y="-300">
+      1<tspan x="80" dy="12">0</tspan><tspan x="80" dy="12">1</tspan><tspan x="80" dy="12">1</tspan><tspan x="80" dy="12">0</tspan>
+      <tspan x="80" dy="12">1</tspan><tspan x="80" dy="12">0</tspan><tspan x="80" dy="12">0</tspan><tspan x="80" dy="12">1</tspan>
+      <tspan x="80" dy="12">1</tspan><tspan x="80" dy="12">0</tspan><tspan x="80" dy="12">1</tspan><tspan x="80" dy="12">0</tspan>
+      <tspan x="80" dy="12">0</tspan><tspan x="80" dy="12">1</tspan><tspan x="80" dy="12">1</tspan><tspan x="80" dy="12">0</tspan>
+      <tspan x="80" dy="12">1</tspan><tspan x="80" dy="12">0</tspan><tspan x="80" dy="12">1</tspan><tspan x="80" dy="12">1</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,600" dur="4s" repeatCount="indefinite"/>
     </text>
-    <text x="300" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
-      01110100 01101000 01110010 01100101
-      <animateTransform attributeName="transform" type="translate" values="0,-50; 0,300" dur="10s" repeatCount="indefinite"/>
+    <!-- Column 2 -->
+    <text x="250" y="-400">
+      0<tspan x="250" dy="12">1</tspan><tspan x="250" dy="12">0</tspan><tspan x="250" dy="12">1</tspan><tspan x="250" dy="12">1</tspan>
+      <tspan x="250" dy="12">0</tspan><tspan x="250" dy="12">0</tspan><tspan x="250" dy="12">1</tspan><tspan x="250" dy="12">0</tspan>
+      <tspan x="250" dy="12">1</tspan><tspan x="250" dy="12">1</tspan><tspan x="250" dy="12">0</tspan><tspan x="250" dy="12">1</tspan>
+      <tspan x="250" dy="12">0</tspan><tspan x="250" dy="12">1</tspan><tspan x="250" dy="12">1</tspan><tspan x="250" dy="12">0</tspan>
+      <tspan x="250" dy="12">1</tspan><tspan x="250" dy="12">0</tspan><tspan x="250" dy="12">0</tspan><tspan x="250" dy="12">1</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,700" dur="3.5s" repeatCount="indefinite"/>
     </text>
-    <text x="500" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
-      01100001 01110100 01110011 00100000
-      <animateTransform attributeName="transform" type="translate" values="0,-100; 0,300" dur="12s" repeatCount="indefinite"/>
+    <!-- Column 3 -->
+    <text x="420" y="-200">
+      1<tspan x="420" dy="12">1</tspan><tspan x="420" dy="12">0</tspan><tspan x="420" dy="12">0</tspan><tspan x="420" dy="12">1</tspan>
+      <tspan x="420" dy="12">0</tspan><tspan x="420" dy="12">1</tspan><tspan x="420" dy="12">1</tspan><tspan x="420" dy="12">0</tspan>
+      <tspan x="420" dy="12">0</tspan><tspan x="420" dy="12">1</tspan><tspan x="420" dy="12">0</tspan><tspan x="420" dy="12">1</tspan>
+      <tspan x="420" dy="12">1</tspan><tspan x="420" dy="12">0</tspan><tspan x="420" dy="12">1</tspan><tspan x="420" dy="12">1</tspan>
+      <tspan x="420" dy="12">0</tspan><tspan x="420" dy="12">0</tspan><tspan x="420" dy="12">1</tspan><tspan x="420" dy="12">0</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,500" dur="5s" repeatCount="indefinite"/>
     </text>
-    <text x="900" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
-      01100100 01100101 01100110 01100101
-      <animateTransform attributeName="transform" type="translate" values="0,-30; 0,300" dur="9s" repeatCount="indefinite"/>
+    <!-- Column 4 -->
+    <text x="590" y="-350">
+      0<tspan x="590" dy="12">0</tspan><tspan x="590" dy="12">1</tspan><tspan x="590" dy="12">1</tspan><tspan x="590" dy="12">0</tspan>
+      <tspan x="590" dy="12">1</tspan><tspan x="590" dy="12">0</tspan><tspan x="590" dy="12">1</tspan><tspan x="590" dy="12">0</tspan>
+      <tspan x="590" dy="12">1</tspan><tspan x="590" dy="12">1</tspan><tspan x="590" dy="12">0</tspan><tspan x="590" dy="12">0</tspan>
+      <tspan x="590" dy="12">1</tspan><tspan x="590" dy="12">0</tspan><tspan x="590" dy="12">1</tspan><tspan x="590" dy="12">1</tspan>
+      <tspan x="590" dy="12">0</tspan><tspan x="590" dy="12">1</tspan><tspan x="590" dy="12">0</tspan><tspan x="590" dy="12">0</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,650" dur="4.2s" repeatCount="indefinite"/>
     </text>
-    <text x="1100" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
-      01101110 01100100 01100101 01110010
-      <animateTransform attributeName="transform" type="translate" values="0,-80; 0,300" dur="11s" repeatCount="indefinite"/>
+    <!-- Column 5 -->
+    <text x="760" y="-450">
+      1<tspan x="760" dy="12">0</tspan><tspan x="760" dy="12">1</tspan><tspan x="760" dy="12">0</tspan><tspan x="760" dy="12">1</tspan>
+      <tspan x="760" dy="12">1</tspan><tspan x="760" dy="12">0</tspan><tspan x="760" dy="12">0</tspan><tspan x="760" dy="12">1</tspan>
+      <tspan x="760" dy="12">0</tspan><tspan x="760" dy="12">1</tspan><tspan x="760" dy="12">1</tspan><tspan x="760" dy="12">0</tspan>
+      <tspan x="760" dy="12">1</tspan><tspan x="760" dy="12">0</tspan><tspan x="760" dy="12">0</tspan><tspan x="760" dy="12">1</tspan>
+      <tspan x="760" dy="12">1</tspan><tspan x="760" dy="12">0</tspan><tspan x="760" dy="12">1</tspan><tspan x="760" dy="12">0</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,750" dur="3.8s" repeatCount="indefinite"/>
     </text>
-    <text x="1300" y="0" font-family="Courier New, monospace" font-size="12" fill="#00ff00">
-      01110011 01100101 01100011 00100000
-      <animateTransform attributeName="transform" type="translate" values="0,-150; 0,300" dur="13s" repeatCount="indefinite"/>
+    <!-- Column 6 -->
+    <text x="930" y="-250">
+      0<tspan x="930" dy="12">1</tspan><tspan x="930" dy="12">1</tspan><tspan x="930" dy="12">0</tspan><tspan x="930" dy="12">0</tspan>
+      <tspan x="930" dy="12">1</tspan><tspan x="930" dy="12">0</tspan><tspan x="930" dy="12">1</tspan><tspan x="930" dy="12">1</tspan>
+      <tspan x="930" dy="12">0</tspan><tspan x="930" dy="12">0</tspan><tspan x="930" dy="12">1</tspan><tspan x="930" dy="12">0</tspan>
+      <tspan x="930" dy="12">1</tspan><tspan x="930" dy="12">1</tspan><tspan x="930" dy="12">0</tspan><tspan x="930" dy="12">1</tspan>
+      <tspan x="930" dy="12">0</tspan><tspan x="930" dy="12">1</tspan><tspan x="930" dy="12">1</tspan><tspan x="930" dy="12">0</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,550" dur="4.7s" repeatCount="indefinite"/>
+    </text>
+    <!-- Column 7 -->
+    <text x="1100" y="-380">
+      1<tspan x="1100" dy="12">1</tspan><tspan x="1100" dy="12">0</tspan><tspan x="1100" dy="12">1</tspan><tspan x="1100" dy="12">0</tspan>
+      <tspan x="1100" dy="12">0</tspan><tspan x="1100" dy="12">1</tspan><tspan x="1100" dy="12">1</tspan><tspan x="1100" dy="12">0</tspan>
+      <tspan x="1100" dy="12">1</tspan><tspan x="1100" dy="12">0</tspan><tspan x="1100" dy="12">0</tspan><tspan x="1100" dy="12">1</tspan>
+      <tspan x="1100" dy="12">1</tspan><tspan x="1100" dy="12">0</tspan><tspan x="1100" dy="12">1</tspan><tspan x="1100" dy="12">0</tspan>
+      <tspan x="1100" dy="12">0</tspan><tspan x="1100" dy="12">1</tspan><tspan x="1100" dy="12">1</tspan><tspan x="1100" dy="12">1</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,680" dur="3.3s" repeatCount="indefinite"/>
+    </text>
+    <!-- Column 8 -->
+    <text x="1270" y="-150">
+      0<tspan x="1270" dy="12">0</tspan><tspan x="1270" dy="12">1</tspan><tspan x="1270" dy="12">0</tspan><tspan x="1270" dy="12">1</tspan>
+      <tspan x="1270" dy="12">1</tspan><tspan x="1270" dy="12">0</tspan><tspan x="1270" dy="12">0</tspan><tspan x="1270" dy="12">1</tspan>
+      <tspan x="1270" dy="12">0</tspan><tspan x="1270" dy="12">1</tspan><tspan x="1270" dy="12">0</tspan><tspan x="1270" dy="12">0</tspan>
+      <tspan x="1270" dy="12">1</tspan><tspan x="1270" dy="12">1</tspan><tspan x="1270" dy="12">0</tspan><tspan x="1270" dy="12">1</tspan>
+      <tspan x="1270" dy="12">0</tspan><tspan x="1270" dy="12">0</tspan><tspan x="1270" dy="12">1</tspan><tspan x="1270" dy="12">1</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,450" dur="5.5s" repeatCount="indefinite"/>
+    </text>
+    <!-- Column 9 -->
+    <text x="1440" y="-320">
+      1<tspan x="1440" dy="12">0</tspan><tspan x="1440" dy="12">1</tspan><tspan x="1440" dy="12">1</tspan><tspan x="1440" dy="12">0</tspan>
+      <tspan x="1440" dy="12">0</tspan><tspan x="1440" dy="12">1</tspan><tspan x="1440" dy="12">0</tspan><tspan x="1440" dy="12">1</tspan>
+      <tspan x="1440" dy="12">1</tspan><tspan x="1440" dy="12">0</tspan><tspan x="1440" dy="12">1</tspan><tspan x="1440" dy="12">0</tspan>
+      <tspan x="1440" dy="12">0</tspan><tspan x="1440" dy="12">1</tspan><tspan x="1440" dy="12">1</tspan><tspan x="1440" dy="12">0</tspan>
+      <tspan x="1440" dy="12">1</tspan><tspan x="1440" dy="12">0</tspan><tspan x="1440" dy="12">0</tspan><tspan x="1440" dy="12">1</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,620" dur="4.5s" repeatCount="indefinite"/>
     </text>
   </g>
   
