@@ -31,7 +31,7 @@
   <text x="200" y="100" font-family="Courier New, monospace" font-size="60" fill="#00ff00" filter="url(#glow)">[</text>
   <text x="792" y="100" font-family="Courier New, monospace" font-size="60" font-weight="bold" fill="#00ff00" text-anchor="middle" filter="url(#glow)">UMAIR AZIZ</text>
   <text x="1344" y="100" font-family="Courier New, monospace" font-size="60" fill="#00ff00" filter="url(#glow)">]</text>
-  <text x="792" y="150" font-family="Courier New, monospace" font-size="20" fill="#32cd32" text-anchor="middle" opacity="0.9">Cybersecurity Expert | C3SA Certified Analyst | Ethical Hacker</text>
+  <text x="792" y="150" font-family="Courier New, monospace" font-size="20" fill="#32cd32" text-anchor="middle" opacity="0.9">Threat Hunter | Cyber Defender | Purple Team | Ethical Hacker</text>
   <text x="792" y="190" font-family="Courier New, monospace" font-size="16" fill="#00ff00" text-anchor="middle" opacity="0.75">root@security:~$</text>
   <text x="792" y="220" font-family="Courier New, monospace" font-size="14" fill="#32cd32" text-anchor="middle" opacity="0.7" font-style="italic">"The quieter you become, the more you can hear"</text>
   <circle cx="1400" cy="150" r="60" fill="url(#bugShield)" filter="url(#bugGlow)">
