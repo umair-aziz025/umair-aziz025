@@ -10,13 +10,13 @@
 
 </div>
 
-<br/>
-
 <div align="center">
 
 ### 🔐 "Hack The Planet, Secure The Future" 🔐
 
 <img src="https://raw.githubusercontent.com/umair-aziz025/umair-aziz025/main/divider.svg" width="1000">
+
+<br/>
 
 **⭐ Star my repositories if you find them useful!**
 
