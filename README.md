@@ -14,15 +14,6 @@
 
 <br/>
 
-## 🌐 Connect With Me
-
-<div align="center">
-</div>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/umair-aziz025/umair-aziz025/main/divider.svg" width="1000">
-</div>
-
 <div align="center">
 
 ### 🔐 "Hack The Planet, Secure The Future" 🔐
