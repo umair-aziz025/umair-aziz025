@@ -133,9 +133,26 @@
 
 <div align="center">
 
-## GitHub Snapshot
+## Current Focus
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=umair-aziz025&show_icons=true&hide_border=true&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&bg_color=000000" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umair-aziz025&layout=compact&hide_border=true&title_color=00FF00&text_color=FFFFFF&bg_color=000000" />
+<table>
+  <tr>
+    <td align="center" width="25%"><b>AppSec</b><br/>Web, API, Android</td>
+    <td align="center" width="25%"><b>Research</b><br/>CTFs, CVEs, bug bounty</td>
+    <td align="center" width="25%"><b>Automation</b><br/>Python tooling and scanners</td>
+    <td align="center" width="25%"><b>Reporting</b><br/>PoCs, impact, remediation</td>
+  </tr>
+</table>
+
+<p>
+  <img src="https://img.shields.io/badge/Python-00FF00?style=flat-square&labelColor=000000">
+  <img src="https://img.shields.io/badge/JavaScript-00FF00?style=flat-square&labelColor=000000">
+  <img src="https://img.shields.io/badge/TypeScript-00FF00?style=flat-square&labelColor=000000">
+  <img src="https://img.shields.io/badge/PHP-00FF00?style=flat-square&labelColor=000000">
+  <img src="https://img.shields.io/badge/Kotlin-00FF00?style=flat-square&labelColor=000000">
+  <img src="https://img.shields.io/badge/Flask-00FF00?style=flat-square&labelColor=000000">
+  <img src="https://img.shields.io/badge/React-00FF00?style=flat-square&labelColor=000000">
+  <img src="https://img.shields.io/badge/Firebase-00FF00?style=flat-square&labelColor=000000">
+</p>
 
 </div>
