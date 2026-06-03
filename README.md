@@ -10,20 +10,6 @@
 
 <div align="center">
 
-### 🔐 "Hack The Planet, Secure The Future" 🔐
-
-<img src="https://raw.githubusercontent.com/umair-aziz025/umair-aziz025/main/divider.svg" width="1000">
-
-<br/>
-
-**⭐ Star my repositories if you find them useful!**
-
-</div>
-
-<br/>
-
-<div align="center">
-
 <img src="https://raw.githubusercontent.com/umair-aziz025/umair-aziz025/main/divider.svg" width="1000">
 
 ### Application Security Analyst | AppSec
@@ -154,5 +140,19 @@
   <img src="https://img.shields.io/badge/React-00FF00?style=flat-square&labelColor=000000">
   <img src="https://img.shields.io/badge/Firebase-00FF00?style=flat-square&labelColor=000000">
 </p>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### 🔐 "Hack The Planet, Secure The Future" 🔐
+
+<img src="https://raw.githubusercontent.com/umair-aziz025/umair-aziz025/main/divider.svg" width="1000">
+
+<br/>
+
+**⭐ Star my repositories if you find them useful!**
 
 </div>
