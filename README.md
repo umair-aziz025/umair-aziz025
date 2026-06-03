@@ -35,7 +35,7 @@
 
 <table>
   <tr>
-    <td align="center" width="33%">
+    <td align="center" valign="top" width="33%">
       <b>Application Security</b>
       <br/><br/>
       Web App Testing<br/>
@@ -44,7 +44,7 @@
       IDOR, Logic Flaws & Payment Flow Review<br/>
       Vulnerability Validation & PoC Writing
     </td>
-    <td align="center" width="33%">
+    <td align="center" valign="top" width="33%">
       <b>Offensive Security</b>
       <br/><br/>
       Reconnaissance<br/>
@@ -53,7 +53,7 @@
       CTF Challenge Solving<br/>
       Bug Bounty Reporting
     </td>
-    <td align="center" width="33%">
+    <td align="center" valign="top" width="33%">
       <b>Security Engineering</b>
       <br/><br/>
       Python Security Automation<br/>
