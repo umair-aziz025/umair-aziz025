@@ -14,31 +14,33 @@
   <img src="./assets/radar-light.svg" width="100%" alt="Sweeping radar. Silent intrusion is the deadliest art. Hunt threats before they hunt you.">
 </picture>
 
+[Download the interactive workspace (.zip)](https://github.com/umair-aziz025/umair-aziz025/raw/refs/heads/main/downloads/retro-pixel-workspace.zip) · Unzip and open `workspace.html` to adjust the breeze or pause the scene.
+
 ## Skills &amp; tools
+
+<picture><source media="(max-width: 740px) and (prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark-mobile.svg"><source media="(max-width: 740px) and (prefers-color-scheme: light)" srcset="./assets/cards/skills-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/skills-light.svg"><img src="./assets/cards/skills-light.svg" width="100%" alt="Application security · Offensive testing · Security engineering. Detailed skills and all 18 tools are listed below."></picture>
+
+<details>
+<summary>Skills and tools as text</summary>
 
 - **Application security:** Web and API testing, access control, Android app testing and business logic.
 - **Offensive testing:** Reconnaissance, endpoint fuzzing, CTFs and reproducible proof-of-concept reports.
 - **Security engineering:** Packet analysis, Python automation, vulnerability validation and remediation guidance.
 
-**Languages**
 
-<img src="./assets/badges/python.svg" alt="Python" height="24"> <img src="./assets/badges/javascript.svg" alt="JavaScript" height="24"> <img src="./assets/badges/typescript.svg" alt="TypeScript" height="24"> <img src="./assets/badges/php.svg" alt="PHP" height="24"> <img src="./assets/badges/kotlin.svg" alt="Kotlin" height="24"> <img src="./assets/badges/html-css.svg" alt="HTML/CSS" height="24">
+**Languages:** Python, JavaScript, TypeScript, PHP, Kotlin, HTML/CSS.
 
-**Frameworks & platforms**
+**Frameworks & platforms:** Flask, Node.js, React, Firebase, Android Studio, Tailwind CSS.
 
-<img src="./assets/badges/flask.svg" alt="Flask" height="24"> <img src="./assets/badges/node-js.svg" alt="Node.js" height="24"> <img src="./assets/badges/react.svg" alt="React" height="24"> <img src="./assets/badges/firebase.svg" alt="Firebase" height="24"> <img src="./assets/badges/android-studio.svg" alt="Android Studio" height="24"> <img src="./assets/badges/tailwind-css.svg" alt="Tailwind CSS" height="24">
+**Tools & libraries:** Scapy, Playwright, Requests, Git & GitHub, CustomTkinter, Three.js.
 
-**Tools & libraries**
-
-<img src="./assets/badges/scapy.svg" alt="Scapy" height="24"> <img src="./assets/badges/playwright.svg" alt="Playwright" height="24"> <img src="./assets/badges/requests.svg" alt="Requests" height="24"> <img src="./assets/badges/git-github.svg" alt="Git &amp; GitHub" height="24"> <img src="./assets/badges/customtkinter.svg" alt="CustomTkinter" height="24"> <img src="./assets/badges/three-js.svg" alt="Three.js" height="24">
+</details>
 
 ## Selected projects
 
 I test web, API and Android applications. Here are three tools I’ve worked on.
 
-| [RAGShield](https://github.com/umair-aziz025/RAGShield) | [Dukaan Saathi](https://github.com/umair-aziz025/dukaan-saathi) | [GeoPin](https://github.com/umair-aziz025/GeoPin) |
-|:---|:---|:---|
-| Scans AI apps for prompt injection and data leaks. | Helps shoppers find groceries nearby using Urdu or English. | Reminds you when you arrive at or leave a place. |
+<a href="https://github.com/umair-aziz025/RAGShield"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/ragshield-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/ragshield-light.svg"><img src="./assets/cards/ragshield-light.svg" width="248" alt="RAGShield — Scans AI apps for prompt injection and data leaks."></picture></a> <a href="https://github.com/umair-aziz025/dukaan-saathi"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/dukaan-saathi-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/dukaan-saathi-light.svg"><img src="./assets/cards/dukaan-saathi-light.svg" width="248" alt="Dukaan Saathi — Find nearby groceries using Urdu or English."></picture></a> <a href="https://github.com/umair-aziz025/GeoPin"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/geopin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/geopin-light.svg"><img src="./assets/cards/geopin-light.svg" width="248" alt="GeoPin — Get reminders when you arrive at or leave a place."></picture></a>
 
 Also explore: [NazarSaathi](https://github.com/umair-aziz025/NazarSaathi) · [Pentest Audit Trail](https://github.com/umair-aziz025/pentest-audit-trail)
 

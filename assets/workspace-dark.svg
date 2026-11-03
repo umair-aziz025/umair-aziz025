@@ -1,10 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 468" role="img" shape-rendering="crispEdges" class="rp-scene" width="1200" height="468" aria-labelledby="rp-title rp-desc">
 <title id="rp-title">Umair Aziz — Retro Pixel / Soft Breeze</title>
 <desc id="rp-desc">Umair Aziz works on application security, AI and full-stack projects. A pixel developer types beside a mountain window in Mirpur; the hanging vines sway and loose leaves turn in the breeze.</desc><style>.rp-scene{--wind:1;--air:1;isolation:isolate}
-.rp-scene .rp-letter{animation:rp-letter .10s step-end var(--delay,0s) 1 both}
-@keyframes rp-letter{from{opacity:0}to{opacity:1}}
-.rp-scene .rp-caret{animation:rp-title-caret 1.85s step-end 1 both}
-@keyframes rp-title-caret{0%{opacity:.85;transform:translateX(0)}9%{transform:translateX(44px)}16%{transform:translateX(88px)}23%{transform:translateX(132px)}30%{transform:translateX(176px)}37%{transform:translateX(220px)}44%{transform:translateX(264px)}51%{transform:translateX(308px)}58%{transform:translateX(352px)}65%{transform:translateX(396px)}72%,93%{transform:translateX(440px);opacity:.85}100%{transform:translateX(440px);opacity:0}}
+.rp-scene .rp-letter{opacity:1;animation-duration:8s;animation-timing-function:step-end;animation-iteration-count:infinite}
+.rp-scene .rp-letter:nth-child(1){animation-name:rp-letter-loop-1}
+@keyframes rp-letter-loop-1{0%{opacity:0}1.125%,100%{opacity:1}}
+.rp-scene .rp-letter:nth-child(2){animation-name:rp-letter-loop-2}
+@keyframes rp-letter-loop-2{0%{opacity:0}2.75%,100%{opacity:1}}
+.rp-scene .rp-letter:nth-child(3){animation-name:rp-letter-loop-3}
+@keyframes rp-letter-loop-3{0%{opacity:0}4.375%,100%{opacity:1}}
+.rp-scene .rp-letter:nth-child(4){animation-name:rp-letter-loop-4}
+@keyframes rp-letter-loop-4{0%{opacity:0}6%,100%{opacity:1}}
+.rp-scene .rp-letter:nth-child(5){animation-name:rp-letter-loop-5}
+@keyframes rp-letter-loop-5{0%{opacity:0}7.625%,100%{opacity:1}}
+.rp-scene .rp-letter:nth-child(6){animation-name:rp-letter-loop-6}
+@keyframes rp-letter-loop-6{0%{opacity:0}10.875%,100%{opacity:1}}
+.rp-scene .rp-letter:nth-child(7){animation-name:rp-letter-loop-7}
+@keyframes rp-letter-loop-7{0%{opacity:0}12.5%,100%{opacity:1}}
+.rp-scene .rp-letter:nth-child(8){animation-name:rp-letter-loop-8}
+@keyframes rp-letter-loop-8{0%{opacity:0}14.125%,100%{opacity:1}}
+.rp-scene .rp-letter:nth-child(9){animation-name:rp-letter-loop-9}
+@keyframes rp-letter-loop-9{0%{opacity:0}15.75%,100%{opacity:1}}
+.rp-scene .rp-caret{animation:rp-title-loop 8s step-end infinite}
+@keyframes rp-title-loop{0%{opacity:.85;transform:translateX(0)}1.125%{opacity:.85;transform:translateX(44px)}2.75%{opacity:.85;transform:translateX(88px)}4.375%{opacity:.85;transform:translateX(132px)}6%{opacity:.85;transform:translateX(176px)}7.625%{opacity:.85;transform:translateX(220px)}9.25%{opacity:.85;transform:translateX(264px)}10.875%{opacity:.85;transform:translateX(308px)}12.5%{opacity:.85;transform:translateX(352px)}14.125%{opacity:.85;transform:translateX(396px)}15.75%{opacity:.85;transform:translateX(440px)}21%,100%{opacity:0;transform:translateX(440px)}}
 .rp-scene .swayA,.rp-scene .swayB,.rp-scene .swayC{transform-box:view-box;transform-origin:0 0}
 .rp-scene .swayA{animation:rp-sway 6.9s -2.1s ease-in-out infinite}
 .rp-scene .swayB{animation:rp-sway 8.1s -3.4s ease-in-out infinite}
