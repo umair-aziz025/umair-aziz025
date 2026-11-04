@@ -16,6 +16,10 @@
   <img src="./assets/radar-hunter-glow-light.svg" width="100%" alt="Sweeping radar with a ASCII hunting owl with narrowed eyes and talons. Silent intrusion is the deadliest art. Hunt threats before they hunt you.">
 </picture>
 
+## Highlights
+
+[![NYLP AI Hackathon 2026 — Winner](./assets/badges/laurel-winner-nylp-v2.svg)](https://www.linkedin.com/posts/umairaziz001_technology-ai-entrepreneurship-share-7523290395037020160-LCn9/ "NYLP AI Hackathon 2026: Winner. Dukaan Saathi · 1 Nov 2026. View LinkedIn post.") [![ZeroTrace CTF — Winner](./assets/badges/laurel-winner-zerotrace-v2.svg)](https://www.linkedin.com/posts/umairaziz001_just-a-couple-of-challenges-famous-last-ugcPost-7515342912822530050-Ou7Y/ "ZeroTrace CTF: Winner. 13,835 points · 3x3cu0r. View LinkedIn post.") [![OffSec Gauntlet Echo Response · Season 1 — Winner](./assets/badges/laurel-winner-echo-v2.svg)](https://www.linkedin.com/posts/umairaziz001_a-little-late-to-post-but-still-riding-the-ugcPost-7407715571888209920-dpyB/ "OffSec Echo Response: Winner. The Gauntlet · Season 1. View LinkedIn post.") [![OffSec Gauntlet Arctic Howl · Season 2 — Winner](./assets/badges/laurel-winner-arctic-v2.svg)](https://www.linkedin.com/posts/umairaziz001_well-life-has-been-incredibly-busy-over-ugcPost-7452510300194476033-Yx6_/ "OffSec Arctic Howl: Winner. The Gauntlet · Season 2. View LinkedIn post.")
+
 ## Skills &amp; tools
 
 **Practice**
@@ -43,10 +47,6 @@ I test web, API and Android applications. Here are three tools I’ve worked on.
 Also explore:
 
 <a href="https://github.com/umair-aziz025/NazarSaathi"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/explore-nazarsaathi-dark.svg"><img src="./assets/cards/explore-nazarsaathi-light.svg" width="154" height="36" alt="NazarSaathi"></picture></a> <a href="https://github.com/umair-aziz025/pentest-audit-trail"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/explore-pentest-audit-trail-dark.svg"><img src="./assets/cards/explore-pentest-audit-trail-light.svg" width="230" height="36" alt="Pentest Audit Trail"></picture></a>
-
-## Highlights
-
-[![NYLP AI Hackathon 2026 — Winner](./assets/badges/laurel-winner-nylp-v2.svg)](https://www.linkedin.com/posts/umairaziz001_technology-ai-entrepreneurship-share-7523290395037020160-LCn9/ "NYLP AI Hackathon 2026: Winner. Dukaan Saathi · 1 Nov 2026. View LinkedIn post.") [![ZeroTrace CTF — Winner](./assets/badges/laurel-winner-zerotrace-v2.svg)](https://www.linkedin.com/posts/umairaziz001_just-a-couple-of-challenges-famous-last-ugcPost-7515342912822530050-Ou7Y/ "ZeroTrace CTF: Winner. 13,835 points · 3x3cu0r. View LinkedIn post.") [![OffSec Gauntlet Echo Response · Season 1 — Winner](./assets/badges/laurel-winner-echo-v2.svg)](https://www.linkedin.com/posts/umairaziz001_a-little-late-to-post-but-still-riding-the-ugcPost-7407715571888209920-dpyB/ "OffSec Echo Response: Winner. The Gauntlet · Season 1. View LinkedIn post.") [![OffSec Gauntlet Arctic Howl · Season 2 — Winner](./assets/badges/laurel-winner-arctic-v2.svg)](https://www.linkedin.com/posts/umairaziz001_well-life-has-been-incredibly-busy-over-ugcPost-7452510300194476033-Yx6_/ "OffSec Arctic Howl: Winner. The Gauntlet · Season 2. View LinkedIn post.")
 
 ## Research
 
