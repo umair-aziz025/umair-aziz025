@@ -7,11 +7,11 @@
 </picture>
 
 <picture>
-  <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="./assets/radar-dark-mobile.svg">
-  <source media="(max-width: 540px) and (prefers-color-scheme: light)" srcset="./assets/radar-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/radar-light.svg">
-  <img src="./assets/radar-light.svg" width="100%" alt="Sweeping radar. Silent intrusion is the deadliest art. Hunt threats before they hunt you.">
+  <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="./assets/radar-owl-dark-mobile.svg">
+  <source media="(max-width: 540px) and (prefers-color-scheme: light)" srcset="./assets/radar-owl-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/radar-owl-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/radar-owl-light.svg">
+  <img src="./assets/radar-owl-light.svg" width="100%" alt="Sweeping radar with a blinking ASCII owl at a terminal. Silent intrusion is the deadliest art. Hunt threats before they hunt you.">
 </picture>
 
 ## Skills &amp; tools
