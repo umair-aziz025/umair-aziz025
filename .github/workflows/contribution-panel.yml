@@ -1,0 +1,31 @@
+name: Refresh contribution panel
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/contribution_panel.py
+      - .github/workflows/contribution-panel.yml
+  schedule:
+    - cron: '23 2 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: contribution-panel
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate activity panel
+        run: python3 scripts/contribution_panel.py
+      - name: Save updated panel
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions README.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Refresh contribution activity panel"
+          git pull --rebase origin main
+          git push origin HEAD:main
