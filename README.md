@@ -114,11 +114,11 @@ My final-year project combined a trained YOLOv8l PPE detector, worker tracking, 
 
 <p align="center">
 <picture>
-  <source media="(max-width: 740px) and (prefers-color-scheme: dark)" srcset="./assets/cycle/flow-small-v2-dark-mobile.svg">
-  <source media="(max-width: 740px) and (prefers-color-scheme: light)" srcset="./assets/cycle/flow-small-v2-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cycle/flow-small-v2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cycle/flow-small-v2-light.svg">
-  <img src="./assets/cycle/flow-small-v2-light.svg" width="75%" alt="Pentest cycle: scope, recon, scan and enumerate, find weaknesses, validate exploits (including remote code execution where applicable), assess impact, clean up, report, and retest.">
+  <source media="(max-width: 740px) and (prefers-color-scheme: dark)" srcset="./assets/cycle/flow-inset-v3-dark-mobile.svg">
+  <source media="(max-width: 740px) and (prefers-color-scheme: light)" srcset="./assets/cycle/flow-inset-v3-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cycle/flow-inset-v3-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cycle/flow-inset-v3-light.svg">
+  <img src="./assets/cycle/flow-inset-v3-light.svg" width="100%" alt="Pentest cycle: scope, recon, scan and enumerate, find weaknesses, validate exploits (including remote code execution where applicable), assess impact, clean up, report, and retest.">
 </picture>
 </p>
 
