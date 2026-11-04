@@ -25,7 +25,9 @@ I test web, API and Android applications. Here are three tools I’ve worked on.
 
 <a href="https://github.com/umair-aziz025/RAGShield"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/ragshield-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/ragshield-light.svg"><img src="./assets/cards/ragshield-light.svg" width="248" alt="RAGShield — Scans AI apps for prompt injection and data leaks."></picture></a> <a href="https://github.com/umair-aziz025/dukaan-saathi"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/dukaan-saathi-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/dukaan-saathi-light.svg"><img src="./assets/cards/dukaan-saathi-light.svg" width="248" alt="Dukaan Saathi — Find nearby groceries using Urdu or English."></picture></a> <a href="https://github.com/umair-aziz025/GeoPin"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/geopin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/geopin-light.svg"><img src="./assets/cards/geopin-light.svg" width="248" alt="GeoPin — Get reminders when you arrive at or leave a place."></picture></a>
 
-Also explore: [NazarSaathi](https://github.com/umair-aziz025/NazarSaathi) · [Pentest Audit Trail](https://github.com/umair-aziz025/pentest-audit-trail)
+Also explore:
+
+<a href="https://github.com/umair-aziz025/NazarSaathi"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/explore-nazarsaathi-dark.svg"><img src="./assets/cards/explore-nazarsaathi-light.svg" width="154" height="36" alt="NazarSaathi"></picture></a> <a href="https://github.com/umair-aziz025/pentest-audit-trail"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/explore-pentest-audit-trail-dark.svg"><img src="./assets/cards/explore-pentest-audit-trail-light.svg" width="230" height="36" alt="Pentest Audit Trail"></picture></a>
 
 ## Pentest cycle
 
