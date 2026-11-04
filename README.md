@@ -6,7 +6,7 @@
   <img src="./assets/workspace-light.svg" width="100%" alt="Umair Aziz — AppSec, AI and full-stack. Pixel workspace with a soft breeze in Mirpur, AJK.">
 </picture>
 
-<a href="https://www.linkedin.com/in/umairaziz001/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/polish/linkedin-dark.svg"><img src="./assets/polish/linkedin-light.svg" height="36" alt="LinkedIn"></picture></a> <a href="https://ctf-writeups-webb.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/polish/writeups-dark.svg"><img src="./assets/polish/writeups-light.svg" height="36" alt="Read CTF write-ups"></picture></a> <a href="https://github.com/umair-aziz025/CTF_WRITEUPS"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/polish/ctf-repo-dark.svg"><img src="./assets/polish/ctf-repo-light.svg" height="36" alt="CTF repository"></picture></a> <a href="https://academia.edu.pk/index.php/Journals/article/view/2462"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/polish/research-dark.svg"><img src="./assets/polish/research-light.svg" height="36" alt="Research article"></picture></a>
+[![LinkedIn](./assets/badges/linkedin.svg)](https://www.linkedin.com/in/umairaziz001/) [![CTF write-ups](./assets/badges/writeups.svg)](https://ctf-writeups-webb.vercel.app/) [![CTF repository](./assets/badges/ctf-repository.svg)](https://github.com/umair-aziz025/CTF_WRITEUPS) [![Research article](./assets/badges/research.svg)](https://academia.edu.pk/index.php/Journals/article/view/2462)
 
 <picture>
   <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="./assets/radar-hunter-glow-dark-mobile.svg">
@@ -18,8 +18,21 @@
 
 ## Skills &amp; tools
 
-<picture><source media="(max-width: 740px) and (prefers-color-scheme: dark)" srcset="./assets/polish/skills-dark-mobile.svg"><source media="(max-width: 740px) and (prefers-color-scheme: light)" srcset="./assets/polish/skills-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/polish/skills-dark.svg"><img src="./assets/polish/skills-light.svg" width="100%" alt="Application security, offensive testing and security engineering. Python, JavaScript, TypeScript, PHP, Kotlin, HTML/CSS; Flask, Node.js, React, Firebase, Android Studio, Tailwind CSS; Scapy, Playwright, Requests, Git and GitHub, CustomTkinter, Three.js."></picture>
+**Practice**
 
+![Application security](./assets/badges/skill-application-security.svg) ![Offensive testing](./assets/badges/skill-offensive-testing.svg) ![Security engineering](./assets/badges/skill-security-engineering.svg)
+
+**Languages**
+
+![Python](./assets/badges/skill-python.svg) ![JavaScript](./assets/badges/skill-javascript.svg) ![TypeScript](./assets/badges/skill-typescript.svg) ![PHP](./assets/badges/skill-php.svg) ![Kotlin](./assets/badges/skill-kotlin.svg) ![HTML/CSS](./assets/badges/skill-html-css.svg)
+
+**Platforms**
+
+![Flask](./assets/badges/skill-flask.svg) ![Node.js](./assets/badges/skill-node-js.svg) ![React](./assets/badges/skill-react.svg) ![Firebase](./assets/badges/skill-firebase.svg) ![Android Studio](./assets/badges/skill-android-studio.svg) ![Tailwind CSS](./assets/badges/skill-tailwind-css.svg)
+
+**Tools & libraries**
+
+![Scapy](./assets/badges/skill-scapy.svg) ![Playwright](./assets/badges/skill-playwright.svg) ![Requests](./assets/badges/skill-requests.svg) ![Git & GitHub](./assets/badges/skill-git-github.svg) ![CustomTkinter](./assets/badges/skill-customtkinter.svg) ![Three.js](./assets/badges/skill-three-js.svg)
 
 ## Selected projects
 
@@ -33,9 +46,7 @@ Also explore:
 
 ## Highlights
 
-<a href="https://www.linkedin.com/posts/umairaziz001_technology-ai-entrepreneurship-share-7523290395037020160-LCn9/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/polish/award-hackathon-dark.svg"><img src="./assets/polish/award-hackathon-light.svg" width="330" alt="NYLP AI Hackathon 2026: TOP 25 WINNER. Dukaan Saathi · 1 Nov 2026. View LinkedIn post."></picture></a> <a href="https://www.linkedin.com/posts/umairaziz001_just-a-couple-of-challenges-famous-last-ugcPost-7515342912822530050-Ou7Y/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/polish/award-zerotrace-dark.svg"><img src="./assets/polish/award-zerotrace-light.svg" width="330" alt="ZeroTrace CTF: 3RD PLACE. 13,835 points · 3x3cu0r. View LinkedIn post."></picture></a>
-
-<a href="https://www.linkedin.com/posts/umairaziz001_a-little-late-to-post-but-still-riding-the-ugcPost-7407715571888209920-dpyB/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/polish/award-echo-response-dark.svg"><img src="./assets/polish/award-echo-response-light.svg" width="330" alt="OffSec Echo Response: 5TH PLACE. The Gauntlet · Season 1. View LinkedIn post."></picture></a> <a href="https://www.linkedin.com/posts/umairaziz001_well-life-has-been-incredibly-busy-over-ugcPost-7452510300194476033-Yx6_/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/polish/award-arctic-howl-dark.svg"><img src="./assets/polish/award-arctic-howl-light.svg" width="330" alt="OffSec Arctic Howl: 7TH PLACE. The Gauntlet · Season 2. View LinkedIn post."></picture></a>
+[![NYLP AI Hackathon 2026 — Top 25](./assets/badges/nylp.svg)](https://www.linkedin.com/posts/umairaziz001_technology-ai-entrepreneurship-share-7523290395037020160-LCn9/ "NYLP AI Hackathon 2026: TOP 25 WINNER. Dukaan Saathi · 1 Nov 2026. View LinkedIn post.") [![ZeroTrace CTF — 3rd](./assets/badges/zerotrace.svg)](https://www.linkedin.com/posts/umairaziz001_just-a-couple-of-challenges-famous-last-ugcPost-7515342912822530050-Ou7Y/ "ZeroTrace CTF: 3RD PLACE. 13,835 points · 3x3cu0r. View LinkedIn post.") [![OffSec Echo Response · S1 — 5th](./assets/badges/echo.svg)](https://www.linkedin.com/posts/umairaziz001_a-little-late-to-post-but-still-riding-the-ugcPost-7407715571888209920-dpyB/ "OffSec Echo Response: 5TH PLACE. The Gauntlet · Season 1. View LinkedIn post.") [![OffSec Arctic Howl · S2 — 7th](./assets/badges/arctic.svg)](https://www.linkedin.com/posts/umairaziz001_well-life-has-been-incredibly-busy-over-ugcPost-7452510300194476033-Yx6_/ "OffSec Arctic Howl: 7TH PLACE. The Gauntlet · Season 2. View LinkedIn post.")
 
 ## Research
 
