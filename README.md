@@ -38,3 +38,9 @@ Also explore:
   <source media="(prefers-color-scheme: light)" srcset="./assets/cycle/flow-v2-light.svg">
   <img src="./assets/cycle/flow-v2-light.svg" width="100%" alt="Pentest cycle: scope, recon, scan and enumerate, find weaknesses, validate exploits (including remote code execution where applicable), assess impact, clean up, report, and retest.">
 </picture>
+
+<!-- contribution-panel -->
+
+## Contribution activity
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/contributions/activity-dark.svg"><img src="./assets/contributions/activity-light.svg" width="100%" alt="GitHub contribution activity snapshot, updated 4 November 2026, with a green light sweeping across the calendar."></picture>
