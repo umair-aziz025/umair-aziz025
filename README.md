@@ -14,27 +14,12 @@
   <img src="./assets/radar-light.svg" width="100%" alt="Sweeping radar. Silent intrusion is the deadliest art. Hunt threats before they hunt you.">
 </picture>
 
-[Download the interactive workspace (.zip)](https://github.com/umair-aziz025/umair-aziz025/raw/refs/heads/main/downloads/retro-pixel-workspace.zip) · Unzip and open `workspace.html` to adjust the breeze or pause the scene.
+[Download the interactive workspace (.zip)](https://github.com/umair-aziz025/umair-aziz025/raw/refs/heads/main/downloads/retro-pixel-workspace.zip)
 
 ## Skills &amp; tools
 
-<picture><source media="(max-width: 740px) and (prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark-mobile.svg"><source media="(max-width: 740px) and (prefers-color-scheme: light)" srcset="./assets/cards/skills-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/skills-light.svg"><img src="./assets/cards/skills-light.svg" width="100%" alt="Application security · Offensive testing · Security engineering. Detailed skills and all 18 tools are listed below."></picture>
+<picture><source media="(max-width: 740px) and (prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark-mobile.svg"><source media="(max-width: 740px) and (prefers-color-scheme: light)" srcset="./assets/cards/skills-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/skills-light.svg"><img src="./assets/cards/skills-light.svg" width="100%" alt="Application security · Offensive testing · Security engineering. Languages: Python, JavaScript, TypeScript, PHP, Kotlin and HTML/CSS. Platforms: Flask, Node.js, React, Firebase, Android Studio and Tailwind CSS. Tools: Scapy, Playwright, Requests, Git and GitHub, CustomTkinter and Three.js."></picture>
 
-<details>
-<summary>Skills and tools as text</summary>
-
-- **Application security:** Web and API testing, access control, Android app testing and business logic.
-- **Offensive testing:** Reconnaissance, endpoint fuzzing, CTFs and reproducible proof-of-concept reports.
-- **Security engineering:** Packet analysis, Python automation, vulnerability validation and remediation guidance.
-
-
-**Languages:** Python, JavaScript, TypeScript, PHP, Kotlin, HTML/CSS.
-
-**Frameworks & platforms:** Flask, Node.js, React, Firebase, Android Studio, Tailwind CSS.
-
-**Tools & libraries:** Scapy, Playwright, Requests, Git & GitHub, CustomTkinter, Three.js.
-
-</details>
 
 ## Selected projects
 
@@ -44,8 +29,12 @@ I test web, API and Android applications. Here are three tools I’ve worked on.
 
 Also explore: [NazarSaathi](https://github.com/umair-aziz025/NazarSaathi) · [Pentest Audit Trail](https://github.com/umair-aziz025/pentest-audit-trail)
 
-## How I test
+## Pentest cycle
 
-**Recon** — Map endpoints and trust boundaries.  
-**Test** — Check access controls, input handling and business logic.  
-**Report** — Document evidence, impact and a practical fix.
+<picture>
+  <source media="(max-width: 740px) and (prefers-color-scheme: dark)" srcset="./assets/cycle/trace-dark-mobile.svg">
+  <source media="(max-width: 740px) and (prefers-color-scheme: light)" srcset="./assets/cycle/trace-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cycle/trace-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cycle/trace-light.svg">
+  <img src="./assets/cycle/trace-light.svg" width="100%" alt="Pentest cycle: scope, recon, scan and enumerate, find weaknesses, validate exploits (including remote code execution where applicable), assess impact, clean up, report, and retest.">
+</picture>
