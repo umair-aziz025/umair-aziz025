@@ -6,7 +6,7 @@
   <img src="./assets/workspace-light.svg" width="100%" alt="Umair Aziz — AppSec, AI and full-stack. Pixel workspace with a soft breeze in Mirpur, AJK.">
 </picture>
 
-[![LinkedIn](./assets/badges/linkedin.svg)](https://www.linkedin.com/in/umairaziz001/) [![CTF write-ups](./assets/badges/writeups.svg)](https://ctf-writeups-webb.vercel.app/) [![CTF repository](./assets/badges/ctf-repository.svg)](https://github.com/umair-aziz025/CTF_WRITEUPS) [![Research article](./assets/badges/research.svg)](https://academia.edu.pk/index.php/Journals/article/view/2462)
+[![LinkedIn](./assets/badges/sage-linkedin.svg)](https://www.linkedin.com/in/umairaziz001/) [![CTF write-ups](./assets/badges/sage-writeups.svg)](https://ctf-writeups-webb.vercel.app/) [![CTF repository](./assets/badges/sage-ctf-repository.svg)](https://github.com/umair-aziz025/CTF_WRITEUPS) [![Research article](./assets/badges/sage-research.svg)](https://academia.edu.pk/index.php/Journals/article/view/2462)
 
 <picture>
   <source media="(max-width: 540px) and (prefers-color-scheme: dark)" srcset="./assets/radar-hunter-glow-dark-mobile.svg">
@@ -20,19 +20,19 @@
 
 **Practice**
 
-![Application security](./assets/badges/skill-application-security.svg) ![Offensive testing](./assets/badges/skill-offensive-testing.svg) ![Security engineering](./assets/badges/skill-security-engineering.svg)
+![Application security](./assets/badges/sage-skill-application-security.svg) ![Offensive testing](./assets/badges/sage-skill-offensive-testing.svg) ![Security engineering](./assets/badges/sage-skill-security-engineering.svg)
 
 **Languages**
 
-![Python](./assets/badges/skill-python.svg) ![JavaScript](./assets/badges/skill-javascript.svg) ![TypeScript](./assets/badges/skill-typescript.svg) ![PHP](./assets/badges/skill-php.svg) ![Kotlin](./assets/badges/skill-kotlin.svg) ![HTML/CSS](./assets/badges/skill-html-css.svg)
+![Python](./assets/badges/sage-skill-python.svg) ![JavaScript](./assets/badges/sage-skill-javascript.svg) ![TypeScript](./assets/badges/sage-skill-typescript.svg) ![PHP](./assets/badges/sage-skill-php.svg) ![Kotlin](./assets/badges/sage-skill-kotlin.svg) ![HTML/CSS](./assets/badges/sage-skill-html-css.svg)
 
 **Platforms**
 
-![Flask](./assets/badges/skill-flask.svg) ![Node.js](./assets/badges/skill-node-js.svg) ![React](./assets/badges/skill-react.svg) ![Firebase](./assets/badges/skill-firebase.svg) ![Android Studio](./assets/badges/skill-android-studio.svg) ![Tailwind CSS](./assets/badges/skill-tailwind-css.svg)
+![Flask](./assets/badges/sage-skill-flask.svg) ![Node.js](./assets/badges/sage-skill-node-js.svg) ![React](./assets/badges/sage-skill-react.svg) ![Firebase](./assets/badges/sage-skill-firebase.svg) ![Android Studio](./assets/badges/sage-skill-android-studio.svg) ![Tailwind CSS](./assets/badges/sage-skill-tailwind-css.svg)
 
 **Tools & libraries**
 
-![Scapy](./assets/badges/skill-scapy.svg) ![Playwright](./assets/badges/skill-playwright.svg) ![Requests](./assets/badges/skill-requests.svg) ![Git & GitHub](./assets/badges/skill-git-github.svg) ![CustomTkinter](./assets/badges/skill-customtkinter.svg) ![Three.js](./assets/badges/skill-three-js.svg)
+![Scapy](./assets/badges/sage-skill-scapy.svg) ![Playwright](./assets/badges/sage-skill-playwright.svg) ![Requests](./assets/badges/sage-skill-requests.svg) ![Git & GitHub](./assets/badges/sage-skill-git-github.svg) ![CustomTkinter](./assets/badges/sage-skill-customtkinter.svg) ![Three.js](./assets/badges/sage-skill-three-js.svg)
 
 ## Selected projects
 
@@ -46,7 +46,7 @@ Also explore:
 
 ## Highlights
 
-[![NYLP AI Hackathon 2026 — Top 25](./assets/badges/nylp.svg)](https://www.linkedin.com/posts/umairaziz001_technology-ai-entrepreneurship-share-7523290395037020160-LCn9/ "NYLP AI Hackathon 2026: TOP 25 WINNER. Dukaan Saathi · 1 Nov 2026. View LinkedIn post.") [![ZeroTrace CTF — 3rd](./assets/badges/zerotrace.svg)](https://www.linkedin.com/posts/umairaziz001_just-a-couple-of-challenges-famous-last-ugcPost-7515342912822530050-Ou7Y/ "ZeroTrace CTF: 3RD PLACE. 13,835 points · 3x3cu0r. View LinkedIn post.") [![OffSec Echo Response · S1 — 5th](./assets/badges/echo.svg)](https://www.linkedin.com/posts/umairaziz001_a-little-late-to-post-but-still-riding-the-ugcPost-7407715571888209920-dpyB/ "OffSec Echo Response: 5TH PLACE. The Gauntlet · Season 1. View LinkedIn post.") [![OffSec Arctic Howl · S2 — 7th](./assets/badges/arctic.svg)](https://www.linkedin.com/posts/umairaziz001_well-life-has-been-incredibly-busy-over-ugcPost-7452510300194476033-Yx6_/ "OffSec Arctic Howl: 7TH PLACE. The Gauntlet · Season 2. View LinkedIn post.")
+[![NYLP AI Hackathon 2026 — Top 25](./assets/badges/laurel-compact-nylp.svg)](https://www.linkedin.com/posts/umairaziz001_technology-ai-entrepreneurship-share-7523290395037020160-LCn9/ "NYLP AI Hackathon 2026: TOP 25 WINNER. Dukaan Saathi · 1 Nov 2026. View LinkedIn post.") [![ZeroTrace CTF — 3rd](./assets/badges/laurel-compact-zerotrace.svg)](https://www.linkedin.com/posts/umairaziz001_just-a-couple-of-challenges-famous-last-ugcPost-7515342912822530050-Ou7Y/ "ZeroTrace CTF: 3RD PLACE. 13,835 points · 3x3cu0r. View LinkedIn post.") [![OffSec Echo Response · S1 — 5th](./assets/badges/laurel-compact-echo.svg)](https://www.linkedin.com/posts/umairaziz001_a-little-late-to-post-but-still-riding-the-ugcPost-7407715571888209920-dpyB/ "OffSec Echo Response: 5TH PLACE. The Gauntlet · Season 1. View LinkedIn post.") [![OffSec Arctic Howl · S2 — 7th](./assets/badges/laurel-compact-arctic.svg)](https://www.linkedin.com/posts/umairaziz001_well-life-has-been-incredibly-busy-over-ugcPost-7452510300194476033-Yx6_/ "OffSec Arctic Howl: 7TH PLACE. The Gauntlet · Season 2. View LinkedIn post.")
 
 ## Research
 
