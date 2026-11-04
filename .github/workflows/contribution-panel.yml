@@ -1,12 +1,6 @@
 name: Refresh contribution panel
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - scripts/contribution_panel.py
-      - .github/workflows/contribution-panel.yml
-  schedule:
-    - cron: '23 2 * * *'
 permissions:
   contents: write
 concurrency:
