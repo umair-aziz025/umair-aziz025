@@ -14,8 +14,6 @@
   <img src="./assets/radar-light.svg" width="100%" alt="Sweeping radar. Silent intrusion is the deadliest art. Hunt threats before they hunt you.">
 </picture>
 
-[Download the interactive workspace (.zip)](https://github.com/umair-aziz025/umair-aziz025/raw/refs/heads/main/downloads/retro-pixel-workspace.zip)
-
 ## Skills &amp; tools
 
 <picture><source media="(max-width: 740px) and (prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark-mobile.svg"><source media="(max-width: 740px) and (prefers-color-scheme: light)" srcset="./assets/cards/skills-light-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/cards/skills-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/cards/skills-light.svg"><img src="./assets/cards/skills-light.svg" width="100%" alt="Application security · Offensive testing · Security engineering. Languages: Python, JavaScript, TypeScript, PHP, Kotlin and HTML/CSS. Platforms: Flask, Node.js, React, Firebase, Android Studio and Tailwind CSS. Tools: Scapy, Playwright, Requests, Git and GitHub, CustomTkinter and Three.js."></picture>
